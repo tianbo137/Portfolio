@@ -1,1 +1,1 @@
-# Small-Data-Projects
+# Fun-Data-Projects
