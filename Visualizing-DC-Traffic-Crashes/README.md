@@ -20,7 +20,7 @@ The aim of this project is to use data science methodology to gain insights and 
 Here are the steps I took for the project:
 
 * I collected, cleaned, and analyzed the data.
-* Created heat maps — static and with time that shows accidents by location, for the year, over a map of NJ, for visualization.
+* Created heat maps — static and with time that shows accidents by location, for the year, over a map of DC, for visualization.
 
 To better guide us through the analysis, I formulated the problem into the following set of questions: 
 * Which type of accidents are more fatal?
