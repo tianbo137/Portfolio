@@ -1,9 +1,7 @@
 # Banknote Fraud Classification - Decision Trees from Scratch
 
-To view the notebook without downloading anything, [go here](https://nbviewer.jupyter.org/github/Unique-Divine/Banknote-Fraud-Detection/blob/master/Banknote%20Fraud%20-%20Decision%20Tree.ipynb).
-
 ## Summary: ##
-The goal of this project was to develop accurate predictive models to solve a binary classification problem, detecting  fraudulent banknotes. I figured that classifying the banknotes with decision trees written from scratch could serve as an effective technical exercise.
+The goal of this project was to develop accurate predictive models to solve a binary classification problem, detecting fraudulent banknotes. I figured that classifying the banknotes with decision trees written from scratch could serve as an effective technical exercise.
  
  
 ## Data Description:
@@ -18,5 +16,5 @@ The data was downloaded from [this source](https://archive.ics.uci.edu/ml/datase
 5. class (integer)
 
 ## Next Step / To-Do:
-* The decision tree is done, but I'd like to try to implement a random forest using the decision tree class. 
-* Afterward, I'll turn this entire repo into a tutorial, so people won't have to struggle as much as I did to understand some of these concepts.   
+* The decision tree is done, but I'd like to try to implement a random forest and Xgboost to compare model performance. 
+* Also needed is to apply anomaly detection since banknote fraud is not static and any supervised learning has the potential of being obselete without model updating.
