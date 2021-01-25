@@ -10,11 +10,16 @@ This portfolio contains my data science projects, related practices, and certifi
 
 In this project I have used BigQuery, Datalab, and XGBoost to analyze 42 GB customer logs and predict the likelihood of the customer churn over time. 
 
+
+
+
 #
 
 <img align="left" width="270" height="170" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/instacart.jpg"> **[Instacart Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
 
 In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users to perform customer segmentation and predict which previously purchased item will be in user's next order.
+
+
 
 #
 
@@ -22,11 +27,16 @@ In this project, I analyzed 3 million grocery orders from more than 200,000 Inst
  
 In this project, I built a hybrid-filtering personalized news articles recommendation system which can suggest articles from popular news service providers based on reading history of twitter users who share similar interests (Collaborative filtering) and content similarity of the article and user’s tweets (Content-based filtering).
 
+
+
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[UCI Drug Review and Recommendation](https://github.com/tianbo137/My_Portfolio/tree/main/UCI_Drug_Review_and_Recommendation)**
  
 In this project, I built a simple medicine recommender system based on patients conditions using neural network algorithm.
+
+
+
 
 #
 
@@ -34,11 +44,16 @@ In this project, I built a simple medicine recommender system based on patients 
 
 In this project, I built a Streamlit web app to predict customer credit card default. [App](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py)  
 
+
+
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/time%20series%20anomaly%20detection.jpg"> **[Anomaly Detection in Time Series with LSTM](https://github.com/tianbo137/My_Portfolio/tree/main/Anomaly-Detection-in-Time-Series-Data)** 
 
 In this project I applied LSTM to study time series anomalies.
+
+
+
 
 #
 
