@@ -47,7 +47,7 @@ In this project,  I built a time series anomaly detection model using LSTM autoe
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/DC-TRAFFIC1.jpg"> **[DC Traffic Crash Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/DC-TRAFFIC1.jpg"> **[DC Traffic Accidents Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
  
 In this project, as a small contribution to DC VISION ZERO initiative, I used tableau to visualize DC traffice accidents so as to find patterns in traffice accidents and hence facilitate further suggestions for road safety. 
 
