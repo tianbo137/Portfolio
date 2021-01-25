@@ -13,7 +13,7 @@ This portfolio contains my data science side projects and various certificates. 
 
 In this project I have used survival analysis to study how the likelihood of the customer churn changes over time. I have also implementd a Random Forest model to predict the customer churn and deployed a model using flask webapp on Heroku. 
 
-<img align="left" width="250" height="150" src="https://github.com/archd3sai/Portfolio/blob/master/Images/instacart.jpeg"> **[Instacart Market Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/instacart.jpg"> **[Instacart Market Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
 
 The objective of this project is to analyze the 3 million grocery orders from more than 200,000 Instacart users and predict which previously purchased item will be in user's next order. Customer segmentation and affinity analysis are also done to study user purchase patterns.
 
@@ -23,20 +23,10 @@ The objective of this project is to analyze the 3 million grocery orders from mo
  
 A hybrid-filtering personalized news articles recommendation system which can suggest articles from popular news service providers based on reading history of twitter users who share similar interests (Collaborative filtering) and content similarity of the article and user’s tweets (Content-based filtering).
 
-#
-
-<img align="left" width="250" height="150" src="https://github.com/archd3sai/Portfolio/blob/master/Images/airplane.jpeg"> **[Predictive Maintenance of Aircraft Engine](https://github.com/archd3sai/Predictive-Maintenance-of-Aircraft-Engine)**
-
-In this project I have used models such as RNN, LSTM, 1D-CNN to predict the engine failure 50 cycles ahead of its time, and calculated feature importance from them using sensitivity analysis and shap values. Exponential degradation and similarity-based models are also used to calculate its remaining life. 
 
 #
 
-
-
-
-#
-
-<img align="left" width="250" height="150" src="https://github.com/archd3sai/Portfolio/blob/master/Images/gdp.jpg"> **[Credit Card Default Web App](https://github.com/tianbo137/My_Portfolio/tree/main/Credit_Card_Clients_Default)**
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Default-On-Your-Credit-Card-Debt-Without-a-Plan.jpg"> **[Credit Card Default Web App](https://github.com/tianbo137/My_Portfolio/tree/main/Credit_Card_Clients_Default)**
 
 Objective of this project is to perform predictive assesment on the GDP of India through an inferential analysis of various socio-economic factors. Various models are compared and Stepwise Regression model is implemented which resulted in 5.7% Test MSE. [App](https://churn-prediction-app.herokuapp.com/)  
 
