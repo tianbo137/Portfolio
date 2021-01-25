@@ -1,15 +1,12 @@
-# Data Science Portfolio - Arch Desai
-This Portfolio is a compilation of all the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. This portfolio also contains my Achievements, skills, and certificates. It is updated on the regular basis.
+# Data Science Portfolio
+This Portfolio contains my  Data Science side projects and certificates. Let me know if you have any questions or comments.
 
-- **Email**: [archdesai.ad@gmail.com](archdesai.ad@gmail.com)
+## Reach to me:
+
+- **Email**: [tianbo137@gmail.com](tianbo137@gmail.com)
 - **LinkedIn**: [linkedin.com/archd3sai](https://www.linkedin.com/in/archd3sai/)
 
-## Achievements
-- [Publication](https://phmpapers.org/index.php/phmconf/article/view/1292): Prognosis of Wind Turbine Gearbox Bearing Failures using SCADA and Modeled Data, Proceedings of the Annual Conference of the PHM Society 2020, Vol. 12 No. 1.
-- Winner of a TAMU Datathon 2020 among 50+ teams.
-- Recipient of TAMU Scholarship and Fee Waiver for excellent academic performance (4.0 GPA).
-
-## Projects
+## Side Projects
 
 <img align="left" width="250" height="150" src="https://github.com/archd3sai/Portfolio/blob/master/Images/telecom.jpg"> **[Customer Survival Analysis and Churn Prediction](https://github.com/archd3sai/Customer-Survival-Analysis-and-Churn-Prediction)**
 
@@ -76,11 +73,11 @@ In this project I applied various classification models such as Logistic Regress
     - [Ranking of NFL teams using Markov-chain methods](https://github.com/archd3sai/Ranking-of-NFL-Teams-using-Markov-method/blob/master/Ranking%20of%20NFL%20teams%20Report.pdf) : In this project I implemented and compared three stationary distribution of Markov-chain based approaches to rank 32 NFL (National Football League) teams from "Best" to "Worst" using the scores of 2007 NFL regular season.
     - [Ranking of Tennis players](https://github.com/archd3sai/Tennis-Players-Ranking/blob/master/TennisRanking.ipynb) : Objective of this project is to rank all Tennis Players based on the matches they played in the year of 2018. This project comprises 4 approaches to rank Tennis players and I have tried to make these approaches more robust sequentially.
  
-## Core Competencies
+## Skills
 
-- **Methodologies**: Machine Learning, Deep Learning, Time Series Analysis, Natural Language Processing, Statistics, Explainable AI, A/B Testing and Experimentation Design, Big Data Analytics
-- **Languages**: Python (Pandas, Numpy, Scikit-Learn, Scipy, Keras, Matplotlib), R (Dplyr, Tidyr, Caret, Ggplot2), SQL, C++
-- **Tools**: MySQL, Tableau, Git, PySpark, Amazon Web Services (AWS), Flask, MS Excel
+- **Programming**: Python (Pandas, Numpy, Scikit-Learn, Scipy, Tensorflow, Keras, Matplotlib), SQL, Matlab
+- **Data Science**: Machine Learning/Deep Learning, Time Series Analysis, Natural Language Processing, Statistics, Explainable AI, A/B Testing and Experimentation Design, Big Data Analytics
+- **Tools**: MySQL, Tableau, Git, PySpark, Google Cloud Platform (GCP), Flask, Heroku
 
 ## Certificates
 
@@ -98,4 +95,3 @@ In this project I applied various classification models such as Logistic Regress
     - [Convolution Neural Networks](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Convolutional%20Neural%20Networks.pdf)
     - [Sequence Models](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Sequence%20Models.pdf)
 - [Big Data 101 By Cognitiveclass.ai](https://courses.cognitiveclass.ai/certificates/bfc1df7e5d084a73b84223495263d0fe)
-- [Google Analytics for Begineers By Google](https://analytics.google.com/analytics/academy/certificate/kHYtirzEQV29uzNG8xSFXg)
