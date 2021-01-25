@@ -7,13 +7,13 @@ This portfolio contains my data science projects, related practices, and certifi
 ## Projects
 #
 
-<img align="left" width="200" height="120" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
+<img align="left" width="270" height="170" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
 In this project I have used BigQuery, Datalab, and XGBoost to analyze 42 GB customer logs and predict the likelihood of the customer churn over time. 
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/instacart.jpg"> **[Instacart Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
+<img align="left" width="270" height="170" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/instacart.jpg"> **[Instacart Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
 
 In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users to perform customer segmentation and predict which previously purchased item will be in user's next order.
 
