@@ -1,10 +1,10 @@
-# [KKBox-customer-churn-prediction](https://www.kaggle.com/c/kkbox-churn-prediction-challenge)
+# [End-to-end-customer-churn-prediction]
 
 
 **Bo Tian** 
 
 ## Overview:
-- KKBOX Challenge offers 6 tables of customer data of 40+ GB
+- [KKBOX Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge) offers 6 tables of customer data of 40+ GB
 - We used GCP BigQuery and Datalab to analyze and build predicative models. 
 - Used Lift chart, permutation importance, and LIME to explain model effectiveness
 
