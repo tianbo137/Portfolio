@@ -1,10 +1,11 @@
 # Data Science Portfolio
-This Portfolio contains my  Data Science side projects and certificates. Let me know if you have any questions or comments.
+
+This portfolio contains my data science side projects and various certificates. Let me know if you have any questions or comments.
 
 ## Reach to me:
 
 - **Email**: [tianbo137@gmail.com](tianbo137@gmail.com)
-- **LinkedIn**: [linkedin.com/archd3sai](https://www.linkedin.com/in/archd3sai/)
+- **LinkedIn**: [linkedin.com/tianbo137](https://www.linkedin.com/in/tianbo137/)
 
 ## Side Projects
 
