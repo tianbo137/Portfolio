@@ -18,7 +18,7 @@ In this project, I built a [Streamlit web app](https://share.streamlit.io/ashaab
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
-This is an end-to-end project, where I first used [BigQuery](https://cloud.google.com/bigquery) and [Datalab](https://cloud.google.com/datalab/docs) of Google Cloud Platform to perform exploratory data analysis with 42 GB of user log and transaction data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), and then I trained and deployed Random Forest and XGBoost models to predict the likelihood of the customer churn over time. 
+This is an end-to-end machine learning project on Google Cloud Platform. I first used [BigQuery](https://cloud.google.com/bigquery) and [Datalab](https://cloud.google.com/datalab/docs) to perform exploratory data analysis with 42 GB of user log and transaction data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), then I trained and deployed Random Forest and XGBoost models to predict the likelihood of the customer churn over time. 
 
 
 
@@ -47,22 +47,17 @@ In this project,  I built a time series anomaly detection model using LSTM autoe
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/DC-TRAFFIC1.jpg"> **[DC Traffic Crash Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/DC-TRAFFIC1.jpg"> **[DC Traffic Accidents Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
  
 In this project, as a small contribution to DC VISION ZERO initiative, I used tableau to visualize DC traffice accidents so as to find patterns in traffice accidents and hence facilitate further suggestions for road safety. 
 
 <br />
 
 
-#
+## Miscellaneous
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[UCI Drug Review and Recommendation](https://github.com/tianbo137/My_Portfolio/tree/main/UCI_Drug_Review_and_Recommendation)**
- 
-In this project, I went through hands on analysis on UCI ML Drug Review dataset and build a simple item-based medication recommendation system given customer's medical condition.
+You can check [here](https://github.com/tianbo137/Miscellaneous) for some of the small projects that I did when I started off to learn machine learning.
 
-<br />
-<br />
-<br />
 
 ## SQL
 

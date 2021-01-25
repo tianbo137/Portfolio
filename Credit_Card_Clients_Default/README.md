@@ -1,7 +1,7 @@
 # Credit Card Clients Default Web App
 
 
-In this project, we built a [streamlit app](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py). This App is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices.
+In this project, I built a [streamlit app](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py). This App is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices.
 
 The evaluation metrices used here are - 
 1. Confusion Matrix
