@@ -9,7 +9,7 @@ This portfolio contains my data science side projects and related practices and 
 
 ## Projects
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
+<img align="left" width="250" height="100" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
 In this project I have used BigQuery, Datalab, and XGBoost to analyze 42 GB customer logs and predict the likelihood of the customer churn over time. 
 
