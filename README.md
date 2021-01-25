@@ -37,14 +37,6 @@ In this project, I analyzed 3 million grocery orders from more than 200,000 Inst
 In this project, I built a hybrid-filtering personalized news articles recommendation system which can suggest articles from popular news service providers based on reading history of twitter users who share similar interests (Collaborative filtering) and content similarity of the article and user’s tweets (Content-based filtering).
 
 
-
-#
-
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[UCI Drug Review and Recommendation](https://github.com/tianbo137/My_Portfolio/tree/main/UCI_Drug_Review_and_Recommendation)**
- 
-In this project, I went through hands on analysis on UCI ML Drug Review dataset and build a simple item-based medication recommendation system given customer's medical condition.
-
-
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/time%20series%20anomaly%20detection.jpg"> **[Anomaly Detection in Time Series with LSTM](https://github.com/tianbo137/My_Portfolio/tree/main/Anomaly-Detection-in-Time-Series-Data)** 
@@ -57,6 +49,16 @@ In this project,  I built a time series anomaly detection model using LSTM autoe
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/DC-TRAFFIC1.jpg"> **[DC Traffic Crash Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
  
 In this project, as a small contribution to DC VISION ZERO initiative, I used tableau to visualize DC traffice accidents so as to find patterns in traffice accidents and hence facilitate further suggestions for road safety. 
+
+
+
+#
+
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[UCI Drug Review and Recommendation](https://github.com/tianbo137/My_Portfolio/tree/main/UCI_Drug_Review_and_Recommendation)**
+ 
+In this project, I went through hands on analysis on UCI ML Drug Review dataset and build a simple item-based medication recommendation system given customer's medical condition.
+
+
 
 <br />
 
