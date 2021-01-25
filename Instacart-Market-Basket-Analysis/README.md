@@ -1,8 +1,11 @@
 # Instacart Market Basket Analysis
 
+**Bo Tian**
+
 ## Introduction
 
-Instacart is an American technology company that operates as a same-day grocery delivery and pick up service in the U.S. and Canada. Customers shop for groceries through the Instacart mobile app or Instacart.com from various retailer partners. The order is shopped and delivered by an Instacart personal shopper.
+During the pandemic, most people take their daily grocery shopping online and in this project, we use machine learning to help Instacart to gain some more insight about their online shopping business.
+
 
 ### Objectives:
 - Analyze the anonymized [data](https://www.kaggle.com/c/instacart-market-basket-analysis/data) of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart 
