@@ -17,7 +17,7 @@ In this project, I first used BigQuery and Datalab jupyter notebook from Google 
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/instacart.jpg"> **[Instacart Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
 
-In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users to predict which previously purchased item will be in user's next order. Customer segmentation and affinity analysis are also done to study user purchase patterns.
+In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users to predict which previously purchased item will be in user's next order. I also performed customer segmentation and affinity analysis to understand user purchase patterns.
 
 
 
