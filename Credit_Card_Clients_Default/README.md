@@ -1,12 +1,7 @@
 # Credit Card Clients Default Web App
 
-Have a look at it -
 
-Deployed on Heroku - https://creditcardclientsdefault.herokuapp.com/ (Sometimes it may not work due to limited dynos in free tier on Heroku)
-
-Deployed on Streamlit Share - https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py (Working Fine)
-
-This App is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices.
+In this project, we built a [streamlit app](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py). This App is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices.
 
 The evaluation metrices used here are - 
 1. Confusion Matrix
