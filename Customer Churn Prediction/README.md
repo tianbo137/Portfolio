@@ -1,4 +1,4 @@
-# [End-to-end-customer-churn-prediction]
+# End-to-end Customer Churn Prediction
 
 
 **Bo Tian** 
