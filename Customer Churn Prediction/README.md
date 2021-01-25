@@ -1,6 +1,7 @@
-# Kaggle-kkbox-churn-prediction-top5-percentage
-[Kaggle-kkbox-churn-prediction](https://www.kaggle.com/c/kkbox-churn-prediction-challenge) <br>
-**Bo Tian** <br>
+# [KKBox-customer-churn-prediction](https://www.kaggle.com/c/kkbox-churn-prediction-challenge)
+
+
+**Bo Tian** 
 
 ## Overview:
 - KKBOX Challenge offers 6 tables of customer data of 40+ GB
