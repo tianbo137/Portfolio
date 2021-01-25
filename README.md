@@ -47,7 +47,7 @@ In this project I applied various classification models such as Logistic Regress
 
 ## SQL
 
-- This [repository](https://github.com/tianbo137/My_Portfolio/tree/main/SQL-practice) contains my practices of SQL challenges (From Hackerrank, Leetcode, Testdome, etc.).
+- This [repository](https://github.com/tianbo137/My_Portfolio/tree/main/SQL-practice) contains my practices of SQL challenges (From SQLZoo, Hackerrank, Leetcode, Testdome, etc.).
  
 ## Skills
 
