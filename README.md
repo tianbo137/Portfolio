@@ -2,11 +2,6 @@
 
 This portfolio contains my data science side projects and related practices and certificates. Let me know if you have any questions or comments.
 
-## Reach to me:
-
-- **Email**: [tianbo137@gmail.com](tianbo137@gmail.com)
-- **LinkedIn**: [linkedin.com/tianbo137](https://www.linkedin.com/in/tianbo137/)
-
 ## Projects
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
