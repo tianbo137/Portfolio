@@ -8,14 +8,13 @@ from sklearn.metrics import plot_roc_curve,plot_confusion_matrix,plot_precision_
 from sklearn.metrics import precision_score,recall_score
 
 def main():
-    st.title("Default of Credit Card Clients")
-    st.sidebar.title("Default of Credit Card Clients")
+    st.title("Credit Card Default Prediction")
+    st.sidebar.title("Credit Card Default Prediction")
     
-    st.markdown("Our client is a credit card company. They have brought us a dataset that includes some demographics and recent financial data (the past six months) for a sample of 30,000 of their account holders. This data is at the credit account level; in other words, there is one row for each account (you should always clarify what the definition of a row is, in a dataset). Rows are labeled by whether in the next month after the six month historical data period, an account owner has defaulted, or in other words, failed to make the minimum payment.")
-    st.markdown("The problem statement we are trying to address here is a classification problem. We have a dataset that has the payment history of a particular account holder, using this we need to predict whether a particular account holder will be a defaulter in the next month or not.")
-    
+    st.markdown("Our client is a credit card company. They have brought us a dataset that includes some demographics and recent financial data (the past 6 months) for a sample of 30,000 of their account holders. This data is at the credit account level; in other words, there is one row for each account (you should always clarify what the definition of a row is, in a dataset). Rows are labeled by whether in the next month after the six month historical data period, an account owner has defaulted, or in other words, failed to make the minimum payment.")
+    st.markdown("The problem we will address here is a binary classification, i.e. given an unseen account holder's payment history, we predict whether he/she will be a defaulter in the next month or not.")
     st.markdown("So, Let's evaluate our model with different Evaluation metrices as the metrices provide us how effective our model is.")
-    st.sidebar.markdown("Let\'s do it")
+
     data = pd.read_csv('https://raw.githubusercontent.com/Technocolabs100/Project-Data-Set-Repository/master/Data%20set/cleaned_data.csv')
     
     @st.cache(persist=True)
