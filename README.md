@@ -17,7 +17,7 @@ In this project, I built a [Streamlit web app](https://share.streamlit.io/ashaab
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
-In this project, I first used [BigQuery](https://cloud.google.com/bigquery) and [Datalab](https://cloud.google.com/datalab/docs) of Google Cloud Platform to perform exploratory data analysis with 42 GB of user log and transaction data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge). I then trained and deployed Random Forest and XGBoost models to predict the likelihood of the customer churn over time. 
+This is an end-to-end project, where I first used [BigQuery](https://cloud.google.com/bigquery) and [Datalab](https://cloud.google.com/datalab/docs) of Google Cloud Platform to perform exploratory data analysis with 42 GB of user log and transaction data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), and then I trained and deployed Random Forest and XGBoost models to predict the likelihood of the customer churn over time. 
 
 
 
