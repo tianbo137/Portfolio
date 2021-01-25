@@ -1,5 +1,8 @@
 # Credit Card Fraud Detection
 
+by Bo Tian
+
+
 This project is an exploration of the kaggle credit card fraud detection dataset. The project was a great opportunity to learn about outlier/anomaly detection techniques as well as to build models dealing with heavily imbalanced classes.
 
 The dataset provide was very clean so we focus more on implementing streamlined model building pipelines and learning about various anomaly detection techniques.
