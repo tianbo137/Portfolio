@@ -54,11 +54,9 @@ In this project, as a small contribution to DC VISION ZERO initiative, I used ta
 <br />
 
 
-#
+## Miscellaneous
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[UCI Drug Review and Recommendation](https://github.com/tianbo137/My_Portfolio/tree/main/UCI_Drug_Review_and_Recommendation)**
- 
-In this project, I went through hands on analysis on UCI ML Drug Review dataset and build a simple item-based medication recommendation system given customer's medical condition.
+Please check [here](https://github.com/tianbo137/Miscellaneous) for some of the small projects that I did when I began to learn machine learning.
 
 <br />
 <br />
