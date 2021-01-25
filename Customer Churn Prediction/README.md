@@ -12,7 +12,7 @@
 
 Our goal is to predict if a given customer will churn for the next month subscription and the model metric chosen is logloss
 
-### Selected Features
+## Selected Features
 
 
 |Feature|Explanation|Table|Usage|
