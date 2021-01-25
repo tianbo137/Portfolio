@@ -56,7 +56,7 @@ In this project, as a small contribution to DC VISION ZERO initiative, I used ta
 
 ## Miscellaneous
 
-Please check [here](https://github.com/tianbo137/Miscellaneous) for some of the small projects that I did when I began to learn machine learning.
+You can check [here](https://github.com/tianbo137/Miscellaneous) for some of the small projects that I did when I started off to learn machine learning.
 
 
 ## SQL
