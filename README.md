@@ -40,8 +40,8 @@ In this project, I went through hands on analysis on UCI ML Drug Review dataset 
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Default-On-Your-Credit-Card-Debt-Without-a-Plan.jpg"> **[Credit Card Default Streamlit App](https://github.com/tianbo137/My_Portfolio/tree/main/Credit_Card_Clients_Default)**
 
-In this project, I built a Streamlit web app to predict customer credit card default. [App](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py)  
-
+In this project, I built a Streamlit web app to predict customer credit card default, and it is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices. [App](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py) 
+ 
 
 
 #
