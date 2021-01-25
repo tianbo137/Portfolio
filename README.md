@@ -69,9 +69,9 @@ This [repository](https://github.com/tianbo137/SQL) contains my practices of SQL
 
 ## Certificates
 
-- [IBM Machine Learning Professional Certificate]()
+- [IBM Machine Learning Professional Certificate by Coursera]()
 - [Machine Learning Explainability By Kaggle]()
-- [Apache PySpark Training By Linkedin]()
+- [End-to-End Machine Learning with TensorFlow on GCP By Cousera]()
 - [SQL Essential Training By Linkedin]()
 - [SQL Test By HackerRank]()
 - [SQL Test By Testdome]()
