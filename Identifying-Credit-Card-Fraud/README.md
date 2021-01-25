@@ -1,4 +1,4 @@
-# Credit_Fraud_Detection
+# Credit Card Fraud Detection
 
 This project is an exploration of the kaggle credit card fraud detection dataset. The project was a great opportunity to learn about outlier/anomaly detection techniques as well as to build models dealing with heavily imbalanced classes.
 
