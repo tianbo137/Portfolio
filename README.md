@@ -8,7 +8,7 @@ This portfolio contains my data science projects, related practices, and certifi
 
 <img align="left" width="270" height="170" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
-In this project I have used BigQuery, Datalab, and XGBoost to analyze 42 GB customer logs and predict the likelihood of the customer churn over time. 
+In this project, I used BigQuery and Datalab from Google Cloud Platform to analyze 42 GB of data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge) and trained Random Forest and XGBoost models to predict the likelihood of the customer churn over time. 
 
 
 
