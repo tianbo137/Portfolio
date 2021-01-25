@@ -6,10 +6,19 @@ This portfolio contains my data science projects, related practices, and certifi
 
 ## Projects
 
+
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Default-On-Your-Credit-Card-Debt-Without-a-Plan.jpg"> **[Credit Card Default Streamlit App](https://github.com/tianbo137/My_Portfolio/tree/main/Credit_Card_Clients_Default)**
+
+In this project, I built a Streamlit web app to predict customer credit card default, and it is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices. [App](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py) 
+ 
+
+
+#
+
+
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
 In this project, I first used BigQuery and Datalab jupyter notebook from Google Cloud Platform to perform exploratory data analysis with 42 GB of user log and transaction data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge) and trained Random Forest and XGBoost models to predict the likelihood of the customer churn over time. 
-
 
 
 
@@ -38,19 +47,9 @@ In this project, I went through hands on analysis on UCI ML Drug Review dataset 
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Default-On-Your-Credit-Card-Debt-Without-a-Plan.jpg"> **[Credit Card Default Streamlit App](https://github.com/tianbo137/My_Portfolio/tree/main/Credit_Card_Clients_Default)**
-
-In this project, I built a Streamlit web app to predict customer credit card default, and it is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices. [App](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py) 
- 
-
-
-#
-
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/time%20series%20anomaly%20detection.jpg"> **[Anomaly Detection in Time Series with LSTM](https://github.com/tianbo137/My_Portfolio/tree/main/Anomaly-Detection-in-Time-Series-Data)** 
 
-In this project I applied LSTM to study time series anomalies.
-
-
+In this project,  I built a time series anomaly detection model using LSTM autoencoder (via the Keras API with Tensorflow 2) to detect sudden price changes in the S&P 500 index. I have also created interactive charts and plots using Plotly Python and Seaborn for data visualization and display our results in Jupyter notebooks.
 
 
 #
