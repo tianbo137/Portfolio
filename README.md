@@ -15,8 +15,7 @@ In this project I have used BigQuery, Datalab, and XGBoost to analyze 42 GB cust
 
 
 
-# 
-
+#
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/instacart.jpg"> **[Instacart Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
 
 In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users and predict which previously purchased item will be in user's next order. Customer segmentation and affinity analysis are also done to study user purchase patterns.
@@ -28,7 +27,6 @@ In this project, I analyzed 3 million grocery orders from more than 200,000 Inst
 In this project, I built a hybrid-filtering personalized news articles recommendation system which can suggest articles from popular news service providers based on reading history of twitter users who share similar interests (Collaborative filtering) and content similarity of the article and user’s tweets (Content-based filtering).
 
 #
-
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[UCI Drug Review and Recommendation](https://github.com/tianbo137/My_Portfolio/tree/main/UCI_Drug_Review_and_Recommendation)**
  
 In this project, I built a simple medicine recommender system based on patients conditions using neural network algorithm.
