@@ -7,17 +7,11 @@ This portfolio contains my data science projects, related practices, and certifi
 ## Projects
 #
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
+<img align="left" width="200" height="120" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
 In this project I have used BigQuery, Datalab, and XGBoost to analyze 42 GB customer logs and predict the likelihood of the customer churn over time. 
 
 #
-
-
-
-
-
-
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/instacart.jpg"> **[Instacart Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
 
@@ -25,7 +19,7 @@ In this project, I analyzed 3 million grocery orders from more than 200,000 Inst
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/archd3sai/Portfolio/blob/master/Images/1_cEaeMuTvINqIgyYQMSJWUA.jpeg"> **[Hybrid-filtering News Articles Recommendation Engine](https://github.com/archd3sai/News-Articles-Recommendation)**
+<img align="left" width="200" height="120" src="https://github.com/archd3sai/Portfolio/blob/master/Images/1_cEaeMuTvINqIgyYQMSJWUA.jpeg"> **[Hybrid-filtering News Articles Recommendation Engine](https://github.com/archd3sai/News-Articles-Recommendation)**
  
 In this project, I built a hybrid-filtering personalized news articles recommendation system which can suggest articles from popular news service providers based on reading history of twitter users who share similar interests (Collaborative filtering) and content similarity of the article and user’s tweets (Content-based filtering).
 
