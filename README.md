@@ -58,9 +58,9 @@ In this project, as a small contribution to DC VISION ZERO initiative, I used ta
  
 In this project, I went through hands on analysis on UCI ML Drug Review dataset and build a simple item-based medication recommendation system given customer's medical condition.
 
-
-
 <br />
+
+
 
 ## SQL
 
