@@ -63,7 +63,7 @@ In this project, I went through hands on analysis on UCI ML Drug Review dataset 
 
 ## SQL
 
-This [repository](https://github.com/tianbo137/My_Portfolio/tree/main/SQL-practice) contains my practices of SQL challenges (From SQLZoo, Hackerrank, Leetcode, Testdome, etc.).
+This [repository](https://github.com/tianbo137/SQL) contains my practices of SQL challenges (From SQLZoo, Hackerrank, Leetcode, Testdome, etc.).
  
 ## Skills
 
