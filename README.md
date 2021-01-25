@@ -11,6 +11,7 @@ This portfolio contains my data science projects, related practices, and certifi
 
 In this project, I built a [Streamlit web app](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py) to predict customer credit card default. This app is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices. 
 
+<br />
 
 #
 
@@ -27,6 +28,7 @@ This is an end-to-end project, where I first used [BigQuery](https://cloud.googl
 
 In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users to predict which previously purchased item will be in user's next order. I also performed customer segmentation and affinity analysis to understand user purchase patterns.
 
+<br />
 
 
 #
