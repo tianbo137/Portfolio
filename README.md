@@ -33,9 +33,7 @@ In this project, I built a hybrid-filtering personalized news articles recommend
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[UCI Drug Review and Recommendation](https://github.com/tianbo137/My_Portfolio/tree/main/UCI_Drug_Review_and_Recommendation)**
  
-In this project, I built a simple medicine recommender system based on patients conditions using neural network algorithm.
-
-
+In this project, I went through hands on analysis on UCI ML Drug Review dataset and build a simple item-based medication recommendation system given customer's medical condition.
 
 
 #
