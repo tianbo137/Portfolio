@@ -49,6 +49,7 @@ In this project,  I built a time series anomaly detection model using LSTM autoe
  
 In this project, as a small contribution to DC VISION ZERO initiative, I used tableau to visualize DC traffice accidents so as to find patterns in traffice accidents and hence facilitate further suggestions for road safety. 
 
+<br />
 
 
 #
