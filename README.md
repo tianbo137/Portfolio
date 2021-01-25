@@ -5,7 +5,6 @@
 This portfolio contains my data science projects, related practices, and certificates. Let me know if you have any questions or comments.
 
 ## Projects
-#
 
 <img align="left" width="270" height="170" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
@@ -42,7 +41,7 @@ In this project I applied LSTM to study time series anomalies.
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[DC Traffic Crash Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/DC-TRAFFIC1.jpg"> **[DC Traffic Crash Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
  
 In this project, as a small contribution to DC VISION ZERO initiative, I used tableau to visualize DC traffice accidents so as to find patterns in traffice accidents and hence facilitate further suggestions for road safety. 
 
