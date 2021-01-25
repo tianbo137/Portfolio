@@ -63,7 +63,7 @@ In this project, I went through hands on analysis on UCI ML Drug Review dataset 
 
 ## SQL
 
-This [repository](https://github.com/tianbo137/My_Portfolio/tree/main/SQL-practice) contains my practices of SQL challenges (From SQLZoo, Hackerrank, Leetcode, Testdome, etc.).
+This [repository](https://github.com/tianbo137/SQL) contains my practices of SQL challenges (From SQLZoo, Hackerrank, Leetcode, Testdome, etc.).
  
 ## Skills
 
@@ -73,17 +73,10 @@ This [repository](https://github.com/tianbo137/My_Portfolio/tree/main/SQL-practi
 
 ## Certificates
 
-- [Tableau Essential Training By Linkedin](https://github.com/archd3sai/Portfolio/blob/master/Certificates/CertificateOfCompletion_Tableau%20Essential%20Training%202020.1.pdf)
-- [Machine Learning Explainability By Kaggle](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Arch%20Desai%20-%20Machine%20Learning%20Explainability.png)
-- [Apache PySpark Training By Linkedin](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/CertificateOfCompletion_Apache%20Pyspark%20By%20Example%20(2).pdf)
-- [SQL Essential Training By Linkedin](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/CertificateOfCompletion_Sql%20Essential%20Training%202018%20(1).pdf)
-- [SQL Test By HackerRank](https://www.hackerrank.com/certificates/c0cda4c2f1b5)
-- [SQL Test By Testdome](https://www.testdome.com/cert/24cd496af7a24a8489a1fd5de791c392)
-- [Data Science Test By Testdome](https://www.testdome.com/cert/124165d7386d4f76be84c240e0547bd3)
-- [Deep Learning Specialization By deeplearning.ai](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Deep%20Learning%20Specialization.pdf)
-    - [Neural Networks and Deep Learning](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Neural%20Networks%20and%20Deep%20Learning.pdf)
-    - [Structuring Machine Learning Projects](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Structuring%20Machine%20Learning%20Projects.pdf)
-    - [Improving Deep Neural Networks](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Improving%20Deep%20Neural%20Networks.pdf)
-    - [Convolution Neural Networks](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Convolutional%20Neural%20Networks.pdf)
-    - [Sequence Models](https://github.com/archd3sai/Data-Science-Portfolio-Arch-Desai/blob/master/Certificates/Sequence%20Models.pdf)
-- [Big Data 101 By Cognitiveclass.ai](https://courses.cognitiveclass.ai/certificates/bfc1df7e5d084a73b84223495263d0fe)
+- [IBM Machine Learning Professional Certificate]()
+- [Machine Learning Explainability By Kaggle]()
+- [Apache PySpark Training By Linkedin]()
+- [SQL Essential Training By Linkedin]()
+- [SQL Test By HackerRank]()
+- [SQL Test By Testdome]()
+
