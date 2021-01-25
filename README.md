@@ -33,7 +33,7 @@ In this project, I analyzed 3 million grocery orders from more than 200,000 Inst
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/archd3sai/Portfolio/blob/master/Images/1_cEaeMuTvINqIgyYQMSJWUA.jpeg"> **[Stock Portfolio Dash App](https://github.com/tianbo137/My_Portfolio/tree/main/Stock%20Portfolio%20Dash%20App)**
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/www.usnews.com.jpg"> **[Stock Portfolio Dash App](https://github.com/tianbo137/My_Portfolio/tree/main/Stock%20Portfolio%20Dash%20App)**
  
 In this project, I built an end-to-end stock portfolio watcher dashboard application that utilizes machine learning to predict the rating of a stock against the rating the stock is given by analysts in the industry. 
 
