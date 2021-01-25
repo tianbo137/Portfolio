@@ -65,11 +65,7 @@ In this project, I went through hands on analysis on UCI ML Drug Review dataset 
 
 This [repository](https://github.com/tianbo137/SQL) contains my practices of SQL challenges (From SQLZoo, Hackerrank, Leetcode, Testdome, etc.).
  
-## Skills
 
-- **Programming**: Python (Pandas, Numpy, Scikit-Learn, Scipy, Tensorflow, Keras, Matplotlib), SQL, Matlab
-- **Data Science**: Machine Learning/Deep Learning, Time Series Analysis, Natural Language Processing, Statistics, Explainable AI, A/B Testing and Experimentation Design, Big Data Analytics
-- **Tools**: MySQL, Tableau, Git, PySpark, Google Cloud Platform (GCP), Flask, Heroku
 
 ## Certificates
 
