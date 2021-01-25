@@ -1,47 +1,50 @@
 # Data Science Portfolio
 
-This portfolio contains my data science side projects and various certificates. Let me know if you have any questions or comments.
+**by Bo Tian**
 
-## Reach to me:
+This portfolio contains my data science projects, related practices, and certificates. Let me know if you have any questions or comments.
 
-- **Email**: [tianbo137@gmail.com](tianbo137@gmail.com)
-- **LinkedIn**: [linkedin.com/tianbo137](https://www.linkedin.com/in/tianbo137/)
+## Projects
+#
 
-## Side Projects
+<img align="left" width="200" height="120" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
+In this project I have used BigQuery, Datalab, and XGBoost to analyze 42 GB customer logs and predict the likelihood of the customer churn over time. 
 
-In this project I have used survival analysis to study how the likelihood of the customer churn changes over time. I have also implementd a Random Forest model to predict the customer churn and deployed a model using flask webapp on Heroku. 
+#
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/instacart.jpg"> **[Instacart Basket Analysis](https://github.com/tianbo137/My_Portfolio/tree/main/Instacart-Market-Basket-Analysis)**
 
-The objective of this project is to analyze the 3 million grocery orders from more than 200,000 Instacart users and predict which previously purchased item will be in user's next order. Customer segmentation and affinity analysis are also done to study user purchase patterns.
+In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users to perform customer segmentation and predict which previously purchased item will be in user's next order.
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/archd3sai/Portfolio/blob/master/Images/1_cEaeMuTvINqIgyYQMSJWUA.jpeg"> **[Hybrid-filtering News Articles Recommendation Engine](https://github.com/archd3sai/News-Articles-Recommendation)**
+<img align="left" width="200" height="120" src="https://github.com/archd3sai/Portfolio/blob/master/Images/1_cEaeMuTvINqIgyYQMSJWUA.jpeg"> **[Hybrid-filtering News Articles Recommendation Engine](https://github.com/archd3sai/News-Articles-Recommendation)**
  
-A hybrid-filtering personalized news articles recommendation system which can suggest articles from popular news service providers based on reading history of twitter users who share similar interests (Collaborative filtering) and content similarity of the article and user’s tweets (Content-based filtering).
-
+In this project, I built a hybrid-filtering personalized news articles recommendation system which can suggest articles from popular news service providers based on reading history of twitter users who share similar interests (Collaborative filtering) and content similarity of the article and user’s tweets (Content-based filtering).
 
 #
-
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[UCI Drug Review and Recommendation](https://github.com/tianbo137/My_Portfolio/tree/main/UCI_Drug_Review_and_Recommendation)**
  
-A hybrid-filtering personalized news articles recommendation system which can suggest articles from popular news service providers based on reading history of twitter users who share similar interests (Collaborative filtering) and content similarity of the article and user’s tweets (Content-based filtering).
-
+In this project, I built a simple medicine recommender system based on patients conditions using neural network algorithm.
 
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Default-On-Your-Credit-Card-Debt-Without-a-Plan.jpg"> **[Credit Card Default Streamlit App](https://github.com/tianbo137/My_Portfolio/tree/main/Credit_Card_Clients_Default)**
 
-Objective of this project is to perform predictive assesment on the GDP of India through an inferential analysis of various socio-economic factors. Various models are compared and Stepwise Regression model is implemented which resulted in 5.7% Test MSE. [App](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py)  
+In this project, I built a Streamlit web app to predict customer credit card default. [App](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py)  
 
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/time%20series%20anomaly%20detection.jpg"> **[Anomaly Detection in Time Series with LSTM](https://github.com/tianbo137/My_Portfolio/tree/main/Anomaly-Detection-in-Time-Series-Data)** 
 
-In this project I applied various classification models such as Logistic Regression, Random Forest and LightGBM to detect consumers who will default the loan. SMOTE is used to combat class imbalance and LightGBM is implemented that resulted into the highest accuracy 98.89% and 0.99 F1 Score.
+In this project I applied LSTM to study time series anomalies.
+
+#
+
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/drug.jpg"> **[DC Traffic Crash Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
+ 
+In this project, as a small contribution to DC VISION ZERO initiative, I used tableau to visualize DC traffice accidents so as to find patterns in traffice accidents and hence facilitate further suggestions for road safety. 
 
 <br />
 
