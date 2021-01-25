@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-by Bo Tian
+**by Bo Tian**
 
 This portfolio contains my data science projects, related practices, and certificates. Let me know if you have any questions or comments.
 
