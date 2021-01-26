@@ -3,6 +3,11 @@
 
 **Bo Tian** 
 
+<p align="center">
+  <img width="600" height="300" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/gcp%20ml%20pipeline.jpeg">
+</p>
+
+
 ## Overview:
 - [KKBOX Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge) offers 6 tables of customer data of 40+ GB
 - We used GCP BigQuery and Datalab to analyze and build predicative models. 
