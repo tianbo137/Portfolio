@@ -10,7 +10,7 @@ This portfolio contains my data science projects, related practices, and certifi
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[End-to-end ML Model on GCP --- Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
-This is an end-to-end machine learning project using [BigQuery](https://cloud.google.com/bigquery), [Datalab](https://cloud.google.com/datalab/docs), [Dataflow](https://cloud.google.com/dataflow), and [AI Platform](https://cloud.google.com/ai-platform) of the Google Cloud Platform. More specifically, I used BigQuery and Datalab to perform ETL and feature engineering with 42 GB of user data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), then I trained, hyperparameter tuned, and deployed a XGBoost model using AI Platform with model performance ranking top 5% of the challenge.
+This is an end-to-end machine learning project using [BigQuery](https://cloud.google.com/bigquery), [Datalab](https://cloud.google.com/datalab/docs), [Dataflow](https://cloud.google.com/dataflow), and [AI Platform](https://cloud.google.com/ai-platform) of the Google Cloud Platform. More specifically, I used BigQuery and Datalab to perform ETL and feature engineering with 42 GB of user data from Kaggle's [KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), then I trained, hyperparameter tuned, and deployed a XGBoost model using AI Platform with model performance ranking top 5% of the challenge.
 
 #
 
