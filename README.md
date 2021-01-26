@@ -18,7 +18,7 @@ In this project, I built a [Streamlit web app](https://share.streamlit.io/ashaab
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction on GCP](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
-This is an end-to-end machine learning project using BigQuery, Datalab, Dataflow, and AI Platform of the Google Cloud Platform. More specifically, I used [BigQuery](https://cloud.google.com/bigquery) and [Datalab](https://cloud.google.com/datalab/docs) to perform ETL and feature engineering with 42 GB of user data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), then I trained, hyperparameter tuned, and deployed a XGBoost model using AI Platform.
+This is an end-to-end machine learning project using [BigQuery](https://cloud.google.com/bigquery), [Datalab](https://cloud.google.com/datalab/docs), [Dataflow](https://cloud.google.com/dataflow), and [AI Platform](https://cloud.google.com/ai-platform) of the Google Cloud Platform. More specifically, I used BigQuery and Datalab to perform ETL and feature engineering with 42 GB of user data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), then I trained, hyperparameter tuned, and deployed a XGBoost model using AI Platform.
 
 
 
