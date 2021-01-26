@@ -5,8 +5,6 @@ The Figure below illustrates the end-to-end project pipeline from the Extract, T
 
 ## Getting Started
 
-The Stock Portfolio Dash App has been deployed on Heroku. The Dash App can be found here, https://stock-portfolio-dash-app.herokuapp.com/
-
 The Stock Portfolio Dash App is an end-to-end stock watcher dashboard application that utilizes machine learning to predict the rating of a stock against the rating the stock is given by analysts in the industry. This repository consists of 4 main components:
   - The front-end stock portfolio dashboard built using Plotly and Dash
   - The Extract, Transform, and Load (ETL) process to extract features using Python and SQL
@@ -82,14 +80,3 @@ Here are a few recommended ways of improving the model's accuracy:
 
     - After getting additional features, we can use statistical analysis to improve the model. For example using a backward elimination method to select significant features with the highest P-value or the highest Adjusted R-Squared value.
 
-## License
-
-The MIT License (MIT)
-
-Copyright 2019 Chris Kim
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, ITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
