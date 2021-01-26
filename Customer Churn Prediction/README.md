@@ -4,7 +4,7 @@
 **Bo Tian** 
 
 <p align="center">
-  <img width="1500" height="400" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Google_Cloud_B3.jpg">
+  <img width="1500" height="450" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Google_Cloud_B3.jpg">
 </p>
 
 In this project, we develop a XGBoost ensemble model and serve it on the Google Cloud Platform (GCP). We consider a regression problem of predicting the earnings of products using a three-layer neural network implemented with TensorFlow and Keras APIs.
