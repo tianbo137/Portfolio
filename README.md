@@ -7,19 +7,18 @@ This portfolio contains my data science projects, related practices, and certifi
 ## Projects
 
 
+
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[End-to-end ML Model on GCP --- Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
+
+This is an end-to-end machine learning project using [BigQuery](https://cloud.google.com/bigquery), [Datalab](https://cloud.google.com/datalab/docs), [Dataflow](https://cloud.google.com/dataflow), and [AI Platform](https://cloud.google.com/ai-platform) of the Google Cloud Platform. More specifically, I used BigQuery and Datalab to perform ETL and feature engineering with 42 GB of user data from Kaggle's [KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), then I trained, hyperparameter tuned, and deployed a XGBoost model using AI Platform with model performance ranking top 5% of the challenge.
+
+#
+
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Default-On-Your-Credit-Card-Debt-Without-a-Plan.jpg"> **[Credit Card Default Streamlit App](https://github.com/tianbo137/My_Portfolio/tree/main/Credit_Card_Clients_Default)**
 
 In this project, I built a [Streamlit web app](https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py) to predict customer credit card default. This app is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices. 
 
 <br />
-
-#
-
-
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
-
-This is an end-to-end machine learning project on Google Cloud Platform. I first used [BigQuery](https://cloud.google.com/bigquery) and [Datalab](https://cloud.google.com/datalab/docs) to perform exploratory data analysis with 42 GB of user log and transaction data from Kaggle's [WSDM — KKBox’s Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge), then I trained and deployed Random Forest and XGBoost models to predict the likelihood of the customer churn over time. 
-
 
 
 #
@@ -37,13 +36,14 @@ In this project, I analyzed 3 million grocery orders from more than 200,000 Inst
  
 In this project, I built an end-to-end stock portfolio watcher dashboard application that utilizes machine learning to predict the rating of a stock against the rating the stock is given by analysts in the industry. 
 
+<br />
 
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/time%20series%20anomaly%20detection.jpg"> **[Anomaly Detection in Time Series with LSTM](https://github.com/tianbo137/My_Portfolio/tree/main/Anomaly-Detection-in-Time-Series-Data)** 
 
 In this project,  I built a time series anomaly detection model using LSTM autoencoder (via the Keras API with Tensorflow 2) to detect sudden price changes in the S&P 500 index. I have also created interactive charts and plots using Plotly Python and Seaborn for data visualization and display our results in Jupyter notebooks.
-
+<br />
 
 #
 

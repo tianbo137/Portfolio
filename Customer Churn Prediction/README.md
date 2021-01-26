@@ -1,24 +1,38 @@
-# End-to-End Customer Churn Prediction
+# Deploy an end-to-end ML pipeline on GCP --- KKBox Customer Churn Prediction
 
 
 **Bo Tian** 
+
+<p align="center">
+  <img width="1500" height="450" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Google_Cloud_B3.jpg">
+</p>
+
+
+In this project, we developed a XGBoost model and served it on Google Cloud Platform (GCP) using AI Platform. The objective of our work is to predict whether a user of the music streaming service KKBox will “churn”, i.e. leave this subscription-based service, by analysing the user’s behaviour on the website.
+
+The key steps of this project involve:
+
+- ETL and feature engineering using BigQuery and Datalab
+- Build, fit, and hyperparameter tuning XGBoost Model 
+- Save the trained model using joblib in gsc bucket
+- Deploy the model using AI platform to predict on unseen data
+- Used Lift chart, permutation importance, and LIME for model explainability (to do)
 
 <p align="center">
   <img width="900" height="400" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/gcp%20ml%20pipeline.jpeg">
 </p>
 
 
-## Overview:
-- [KKBOX Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge) offers 6 tables of customer data of 40+ GB
-- We used GCP BigQuery and Datalab to analyze and build predicative models. 
-- Used Lift chart, permutation importance, and LIME to explain model effectiveness
+## Dataset:
 
-## Objective and Metric
+[KKBOX Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge) offers 6 tables of customer data of 40+ GB
 
-Our goal is to predict if a given customer will churn for the next month subscription and the model metric chosen is logloss
+
+## Metric
+
+For this challenge, we will be using logloss as the measuring metric
 
 ## Selected Features
-
 
 |Feature|Explanation|Table|Usage|
 |-------|----|----|-----|
@@ -34,4 +48,4 @@ Our goal is to predict if a given customer will churn for the next month subscri
 
 ## Result
 
-My XGBoost model scored top 5% with only 8 selected features
+My XGBoost model scored top 5% with only 8 selected features for this competition and deployed the model as a microservice
