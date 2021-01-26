@@ -36,14 +36,13 @@ In this project, I analyzed 3 million grocery orders from more than 200,000 Inst
  
 In this project, I built an end-to-end stock portfolio watcher dashboard application that utilizes machine learning to predict the rating of a stock against the rating the stock is given by analysts in the industry. 
 
-
+<br />
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/time%20series%20anomaly%20detection.jpg"> **[Anomaly Detection in Time Series with LSTM](https://github.com/tianbo137/My_Portfolio/tree/main/Anomaly-Detection-in-Time-Series-Data)** 
 
 In this project,  I built a time series anomaly detection model using LSTM autoencoder (via the Keras API with Tensorflow 2) to detect sudden price changes in the S&P 500 index. I have also created interactive charts and plots using Plotly Python and Seaborn for data visualization and display our results in Jupyter notebooks.
-
-
+<br />
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/DC-TRAFFIC1.jpg"> **[DC Traffic Accidents Visualization](https://github.com/tianbo137/My_Portfolio/tree/main/Visualizing-DC-Traffic-Crashes)**
