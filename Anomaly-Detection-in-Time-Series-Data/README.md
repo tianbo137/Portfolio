@@ -2,8 +2,46 @@
 
 by **Bo Tian**
 
+In this project, I designed and trained an LSTM autoencoder (using the Keras API with Tensorflow) to detect sudden price changes in the S&P 500 index in 2020. I also created interactive charts and plots using Python Plotly and Seaborn for data visualization.
+>The S&P 500 is a stock performance indicator for the top 500 companies listed on the stock exchange in the United States.
 
-In this project, I designed and trained an LSTM autoencoder (using the Keras API with Tensorflow) to detect sudden price changes in the S&P 500 index. I also created interactive charts and plots using Python Plotly and Seaborn for data visualization.
+## Project Objective:
+- To design and train an LSTM Autoencoder in Keras to Detect anomalies (sudden price changes) in the S&P 500 index
+- 
+- Data range: 1986 - 2020
+
+ 
+It is considered as one of the best representations of the United States stock market.
+
+Source of Dataset: Yahoo Finance
+
+## The dataset is a CSV format with: 
+1. Daily timestamp
+2. Daily Open and Close price
+3. Daily High and Low price
+4. Daily Volume
+
+
+## The Project will follow the below steps:
+1. Import Libraries
+2. Load and Inspect the S&P 500 Index Data
+3. Data Preprocessing
+4. Temporalizing Data and Creating Training and Test Splits
+5. Build an LSTM Autoencoder
+6. Train the Autoencoder
+7. Plot Metrics and Evaluate the Model
+8. Detect Anomalies in the S&P 500 Index Data
+9. Visualize the Anomalies based on threshold
+
+## The required libraries:
+- Numpy
+- Tensorflow
+- Keras
+- Pandas
+- Seaborn
+- Matplotlib
+- Plotly
+- Scikit Learn
 
 # Background
 
