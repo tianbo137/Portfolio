@@ -8,7 +8,8 @@ In this project, I designed and trained an LSTM autoencoder (using the Keras API
 
 > The S&P 500 is a stock performance indicator for the top 500 companies listed on the stock exchange in the United States. It is considered as one of the best representations of the United States stock market.
 
-### The dataset (CSV format) is obtained from Yahoo Finance and contains records of SP 500 index from 1986 to 2020 with: 
+### The Dataset 
+For this project, we obtained our data (in CSV format) from Yahoo Finance and contains records of SP 500 index from 1986 to 2020 with: 
 1. Daily timestamp
 2. Daily Open and Close price
 3. Daily High and Low price
