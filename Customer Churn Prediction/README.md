@@ -4,6 +4,11 @@
 **Bo Tian** 
 
 <p align="center">
+  <img width="1500" height="800" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Google_Cloud_B3.jpg">
+</p>
+
+
+<p align="center">
   <img width="900" height="400" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/gcp%20ml%20pipeline.jpeg">
 </p>
 
