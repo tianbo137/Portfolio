@@ -4,7 +4,7 @@
 **Bo Tian** 
 
 <p align="center">
-  <img width="1500" height="800" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Google_Cloud_B3.jpg">
+  <img width="1500" height="600" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/Google_Cloud_B3.jpg">
 </p>
 
 
