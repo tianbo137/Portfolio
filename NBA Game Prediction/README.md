@@ -3,7 +3,7 @@
 by **Bo Tian**
 
 
-> As we can see from the following twitter of Mark Cuban, owner of Dallas Mavericks, how important data analytics/machine learning is for the modern era of the NBA leagure.
+> The following twitter of Mark Cuban, owner of Dallas Mavericks, shows the importance of data analytics/machine learning towards the NBA leagure nowadays.
 
 ![Cuban](https://github.com/tianbo137/Portfolio/blob/main/Images/cuban.png)
 
