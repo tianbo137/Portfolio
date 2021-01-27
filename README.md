@@ -18,7 +18,7 @@ This is an end-to-end machine learning project using [BigQuery](https://cloud.go
 
 In this project, I built a [Streamlit web app]() to predict NBA game result. In order for this model to be profitable, I designed the backend predicative model as a feedforward neural network using player level features and game odds as input together with a custom loss function to decorrelate from the bookies. 
 <br />
-
+<br />
 
 #
 
