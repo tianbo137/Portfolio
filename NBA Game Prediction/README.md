@@ -3,14 +3,15 @@
 by **Bo Tian**
 
 
-> The following twitter of Mark Cuban, owner of Dallas Mavericks, shows the importance of data analytics/machine learning towards the NBA leagure nowadays.
-
 ![Cuban](https://github.com/tianbo137/Portfolio/blob/main/Images/cuban.png)
 
 ## Overview
 
-In this project, I attempt to build a profitable NBA game winners prediction model against the odds of those Las Vegas bookies. In particular, I will be using player game-level stats pulled from the [NBA stats website](http://stats.nba.com/) with [nba_api](https://github.com/swar/nba_api) together with game odds from [covers.com](http://covers.com) using the Python web scraping framework [Scrapy](https://scrapy.org/). 
+In this project, I attempt to build a profitable NBA game winners prediction model against the odds of bookmakers. 
 
+The data includes player game-level stats pulled from the [NBA stats website](http://stats.nba.com/) with [nba_api](https://github.com/swar/nba_api) and game odds from [covers.com](http://covers.com) using the Python web scraping framework [Scrapy](https://scrapy.org/). 
+
+The model is a wide-and-deep neural network model together with a custom loss function to assist us identifying fair odds.
 
 ## Contents:
 
@@ -19,6 +20,8 @@ In this project, I attempt to build a profitable NBA game winners prediction mod
 - [notebooks](): Jupyter notebooks of all analyses
 
 
-Link to a test database with data from 1990 - March 2021 [test nba.db file](https://drive.google.com/file/d/10CBcCLv2N_neFL39ThykcudUVUv5xqLB/view?usp=sharing)
-
 ## Reference
+- [Exploiting sports-betting market using machine learning](https://www.researchgate.net/publication/331218530_Exploiting_sports-betting_market_using_machine_learning)
+- [Beating the Bookies with Machine Learning](https://www.kdnuggets.com/2019/03/beating-bookies-machine-learning.html)
+- [Databall](https://klane.github.io/databall/)
+- [How to Create a Custom Loss Function | Keras](https://towardsdatascience.com/how-to-create-a-custom-loss-function-keras-3a89156ec69b)
