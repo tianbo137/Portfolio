@@ -1,4 +1,7 @@
 # <img src="docs/assets/icons/favicon.ico" width="48"> NBA Game Result Prediction
+An end-to-end machine learning web app to predict rugby scores 
+
+<br>
 
 by **Bo Tian**
 
@@ -18,6 +21,13 @@ The model is a wide-and-deep neural network model together with a custom loss fu
 - [odds_data](): Scrapy project to scrape point spreads and over/under lines from
 - [game_data](): Python module with support functions to perform tasks including collecting stats to a SQLite database, simulating seasons, and customizing plots
 - [notebooks](): Jupyter notebooks of all analyses
+
+
+## What is covered
+- Data wrangling with Pandas & data storage with SQLite
+- Machine learning (Neural Network) with Keras
+- Web app with Flask (and a bit of CSS & HTML)
+- App deployment with Docker and Heroku
 
 
 ## Reference
