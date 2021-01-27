@@ -1,6 +1,11 @@
 # NBA Game Result Prediction
+
+
 **An end-to-end machine learning web app to predict NBA game winner**
+
+
 <br>
+
 by **Bo Tian**
 
 
