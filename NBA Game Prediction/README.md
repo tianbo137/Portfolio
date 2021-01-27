@@ -1,4 +1,4 @@
-# <img src="docs/assets/icons/favicon.ico" width="48"> NBA Game Result Prediction
+# NBA Game Result Prediction
 An end-to-end machine learning web app to predict rugby scores 
 
 <br>
