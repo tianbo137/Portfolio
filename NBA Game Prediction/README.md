@@ -1,7 +1,7 @@
-# <img src="docs/assets/icons/favicon.ico" width="48"> DataBall: Betting on the NBA with data
+# <img src="docs/assets/icons/favicon.ico" width="48"> NBA Game Result Prediction
 
-[![Test Status](https://github.com/klane/databall/workflows/Tests/badge.svg)](https://github.com/klane/databall/actions)
-[![License](https://img.shields.io/github/license/klane/databall.svg?label=License)](LICENSE)
+![Cuban](https://github.com/tianbo137/Portfolio/blob/main/Images/cuban.png)
+
 
 This project combines my interest in data science with my love of sports. I attempt to predict NBA winners against the spread using stats pulled from the [NBA stats website](http://stats.nba.com/) with [nba_api](https://github.com/swar/nba_api) and point spreads and over/under lines from [covers.com](http://covers.com) using the Python web scraping framework [Scrapy](https://scrapy.org/). All code is written in Python and I used the popular machine learning library [scikit-learn](http://scikit-learn.org/stable/) to make all predictions.
 
