@@ -36,3 +36,5 @@ The model is a wide-and-deep neural network model together with a custom loss fu
 - [Beating the Bookies with Machine Learning](https://www.kdnuggets.com/2019/03/beating-bookies-machine-learning.html)
 - [Databall](https://klane.github.io/databall/)
 - [How to Create a Custom Loss Function | Keras](https://towardsdatascience.com/how-to-create-a-custom-loss-function-keras-3a89156ec69b)
+- [Wide & Deep Learning: Better Together with TensorFlow](https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html)
+- [Implement DeepFM model in Keras](https://6chaoran.wordpress.com/2019/01/03/implement-deepfm-model-in-keras/)
