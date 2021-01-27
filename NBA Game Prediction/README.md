@@ -20,8 +20,6 @@ The model is a wide-and-deep neural network model together with a custom loss fu
 - [notebooks](): Jupyter notebooks of all analyses
 
 
-Link to a test database with data from 1990 - March 2021 [test nba.db file](https://drive.google.com/file/d/10CBcCLv2N_neFL39ThykcudUVUv5xqLB/view?usp=sharing)
-
 ## Reference
 - [Exploiting sports-betting market using machine learning](https://www.researchgate.net/publication/331218530_Exploiting_sports-betting_market_using_machine_learning)
 - [Beating the Bookies with Machine Learning](https://www.kdnuggets.com/2019/03/beating-bookies-machine-learning.html)
