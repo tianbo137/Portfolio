@@ -14,7 +14,7 @@ This is an end-to-end machine learning project using [BigQuery](https://cloud.go
 
 #
 
-<img align="left" width="250" height="170" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/nba-ball-general-view-floor-1-784x523.jpg"> **[NBA Game Prediction Streamlit App](https://github.com/tianbo137/My_Portfolio/tree/main/Credit_Card_Clients_Default)**
+<img align="left" width="250" height="170" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/nba-ball-general-view-floor-1-784x523.jpg"> **[NBA Game Prediction Streamlit App](https://github.com/tianbo137/Portfolio/tree/main/NBA%20Game%20Prediction)**
 
 In this project, I built a [Streamlit web app]() to predict NBA game result. In order for this model to be profitable, I designed the backend predicative model as a feedforward neural network using player level features and game odds as input together with a custom loss function to decorrelate from the bookies. 
 <br />
