@@ -3,8 +3,10 @@
 by **Bo Tian**
 
 
+As we can see from the following twitter of Mark Cuban, owner of Dallas Mavericks, we can see how important data analytics has transform the NBA leagure.
+
 ![Cuban](https://github.com/tianbo137/Portfolio/blob/main/Images/cuban.png)
-*image_caption*
+
 
 In this project, I attempt to predict NBA game winners against the odds of bookies using stats pulled from the [NBA stats website](http://stats.nba.com/) with [nba_api](https://github.com/swar/nba_api) and game odds from [covers.com](http://covers.com) using the Python web scraping framework [Scrapy](https://scrapy.org/). All code is written in Python and I used the popular machine learning library [scikit-learn](http://scikit-learn.org/stable/) to make all predictions.
 
