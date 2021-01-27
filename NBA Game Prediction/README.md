@@ -9,8 +9,12 @@ by **Bo Tian**
 
 ## Overview
 
+
+
 In this project, I attempt to build a profitable NBA game winners prediction model against the odds of those Las Vegas bookies. In particular, I will be using player game-level stats pulled from the [NBA stats website](http://stats.nba.com/) with [nba_api](https://github.com/swar/nba_api) together with game odds from [covers.com](http://covers.com) using the Python web scraping framework [Scrapy](https://scrapy.org/). 
 
+
+We investigate how to use a custom loss function to identify fair odds, including a detailed example using machine learning to bet on the results of a darts match and how this can assist you in beating the bookmaker.
 
 ## Contents:
 
