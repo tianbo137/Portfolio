@@ -1,8 +1,5 @@
 # NBA Game Result Prediction
-An end-to-end machine learning web app to predict rugby scores 
-
-<br>
-
+**An end-to-end machine learning web app to predict NBA game winner**
 by **Bo Tian**
 
 
