@@ -49,3 +49,11 @@ For this challenge, we will be using logloss as the measuring metric
 ## Result
 
 My XGBoost model scored top 5% with only 8 selected features for this competition and deployed the model as a microservice
+
+## Reference
+
+- [Getting started: training and prediction with Keras](https://cloud.google.com/ai-platform/docs/getting-started-keras)
+
+- [Predictions with scikit-learn and XGBoost](https://cloud.google.com/ai-platform/prediction/docs/getting-started-scikit-xgboost#xgboost)
+
+- [Cloud Academy](https://cloudacademy.com/course/introduction-to-google-cloud-machine-learning-engine/tensorflow/)
