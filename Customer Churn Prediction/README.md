@@ -12,7 +12,8 @@ In this project, we developed a XGBoost model and served it on Google Cloud Plat
 
 The key steps of this project involve:
 
-- ETL and feature engineering using BigQuery and Datalab
+- Data ingestion with BigQuery from GCS
+- ETL and feature engineering using Dataflow
 - Build, fit, and hyperparameter tuning XGBoost Model 
 - Save the trained model using joblib in gsc bucket
 - Deploy the model using AI platform to predict on unseen data
