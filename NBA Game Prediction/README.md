@@ -38,3 +38,4 @@ The model is a wide-and-deep neural network model together with a custom loss fu
 - [How to Create a Custom Loss Function | Keras](https://towardsdatascience.com/how-to-create-a-custom-loss-function-keras-3a89156ec69b)
 - [Wide & Deep Learning: Better Together with TensorFlow](https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html)
 - [Implement DeepFM model in Keras](https://6chaoran.wordpress.com/2019/01/03/implement-deepfm-model-in-keras/)
+- [How to build a wide-and-deep model using Keras in TensorFlow 2.0](https://towardsdatascience.com/how-to-build-a-wide-and-deep-model-using-keras-in-tensorflow-2-0-2f7a236b5a4b)
