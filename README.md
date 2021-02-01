@@ -64,7 +64,7 @@ This [repository](https://github.com/tianbo137/SQL) contains my practices of SQL
  
 
 
-## Certificates
+## Certificates & Relavant Courses
 
 - [IBM Machine Learning Professional Certificate by Coursera]()
 - [End-to-End Machine Learning with TensorFlow on GCP By Cousera]()
@@ -72,4 +72,5 @@ This [repository](https://github.com/tianbo137/SQL) contains my practices of SQL
 - [SQL Essential Training By Linkedin]()
 - [SQL Test By HackerRank]()
 - [SQL Test By Testdome]()
-
+- [A/B Testing By Udacity](https://classroom.udacity.com/courses/ud257)
+- [Spark by Udacity](https://www.udacity.com/course/learn-spark-at-udacity--ud2002)
