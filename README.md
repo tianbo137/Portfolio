@@ -41,7 +41,7 @@ In this project, I built an end-to-end stock portfolio watcher dashboard applica
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ab-testing.png"> **[A/B Testing Course Project by Udacity](https://github.com/tianbo137/Portfolio/tree/main/A_B%20Testing%20Course%20Project%20by%20Udacity)** 
 
-In this project, I present my solution to  Udacity's A/B testing course project, in which we try to understand the results of an A/B test run by an e-commerce website to help the company understand if they should implement a new webpage, keep the old page, or perhaps run the experiment longer to make their decision.
+This project contains my solution to Udacity's A/B testing course final project. More specifically, we try to understand the results of an A/B test run by an e-commerce website to help the company understand if they should implement a new webpage, keep the old page, or perhaps run the experiment longer to make their decision.
 
 <br />
 
