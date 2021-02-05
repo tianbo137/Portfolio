@@ -1,23 +1,5 @@
 # Starbucks Offer Personalizations: Using Starbucks app user data to predict effective offers
 
-## 1. Installations
-This project was written in Python, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows:
-
-- pandas
-- numpy
-- math
-- json
-- sklearn.model_selection (train_test_split module)
-- sklearn.preprocessing (StandardScaler, PolynomialFeatures)
-- from sklearn.tree (DecisionTreeClassifier,DecisionTreeRegressor)
-- sklearn.ensemble (RandomForestClassifier)
-- sklearn.metrics (mean_squared_error,classification_report)
-- sklearn.linear_model (Ridge)
-- time
-- sklearn.model_selection (GridSearchCV)
-- matplotlib
-
-## 2. Project Motivation
 
 In this project, I use the simulated data that mimics customer behavior on the Starbucks rewards mobile app to answer 2 business questions:
 
