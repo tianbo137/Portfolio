@@ -24,8 +24,7 @@ In this project, I built a [Streamlit web app]() to predict NBA game result. In 
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/Starbucks-Predictive-Analytics-e1527609153213.jpg"> **[Starbucks Offer Personalizations](https://github.com/tianbo137/Portfolio/tree/main/Starbucks%20Offer%20Personalizations)**
 
-In this project, I used simulated data from the Starbucks rewards app to predict the propensity of a user to take up an offer.
-
+In this project, I used simulated data from the Starbucks rewards app to predict the propensity of a user to take up an offer. This project is inspired by a towardsdatascience.com [article](https://towardsdatascience.com/using-starbucks-app-user-data-to-predict-effective-offers-20b799f3a6d5).
 <br />
 
 
