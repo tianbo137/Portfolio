@@ -15,15 +15,19 @@ One of the most important tasks a company faces is not just acquiring new custom
 - Google AI Platform – A one-stop shop to build and deploy models within the GCP infrastructure
 - Looker – A web-based visualization tool
 
-## Telecom Customer Data
-For this use case, we used customer data from a Telecom company. The data is a one-month snapshot of customer information, including customers who left in the last month, registered services (speed, contract length), and account information (tenure, monthly payments, support interactions, total spend). The dataset represents three sources: Service (Internet, Phone, Security, etc.), Account, and Customer Demographic information. Using this data, we built a logistic regression model to predict whether a customer would churn (yes/no) in the following month.
+## Dataset
+The dataset comes from the WSDM Cup 2018 Challenge and was provided by KKBOX, a music streaming service. The dataset consisted of subscriber data from 3 distinct sources: user activity logs, transactions, and member data spanning several months. 
+
+Transaction details include payment method, duration of the subscription, date, membership expiry date, cancellation of the subscription, and user log contains total no of duration, no of unique songs, and the features based on the duration of songs listened by the user.
+
+The user logs and transaction details are available only up to March. For a user whose subscription expires on April 1, the entire history is open, but for the user with expiry on April 30, most recent activities are inaccessible. Further explanations and data are available [here](https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data)
 
 ## AI Platform
 The bulk of our solution leverages GCP’s AI Platform, which provides a portal into GCP’s suite of machine learning services. The AI Platform has six main components: AI Hub, Data Labeling, Notebooks, Jobs and Models. This example utilizes the Notebooks and Models capabilities of GCP’s AI Platform.
 - Notebooks — Provides the ability to spin up JupyterLab servers, pre-built with all the general machine learning frameworks needed. Enables scaling up or down on hardware, connecting to a compute cluster, and connecting to other services within the GCP ecosystem.
 - Models — Provides a model repository for model version control and monitoring model deployments and availability. Enables endpoint setup to allow models to be called in serverless functions.
 
-In this project, we developed a XGBoost model and served it on Google Cloud Platform (GCP) using AI Platform. The objective of our work is to predict whether a user of the music streaming service KKBox will “churn”, i.e. leave this subscription-based service, by analysing the user’s behaviour on the website.
+
 
 GCP Pipeline & Process Overview
 Google Cloud Platform is easy to navigate and thread different services together to create a pipeline for any analytics project. Our process included four major steps: landing the data into Google Cloud Storage, loading the data into BigQuery, building a model in AI Platform, and visualizing the data in Looker.
@@ -92,3 +96,5 @@ My XGBoost model scored top 5% with only 8 selected features for this competitio
 - [Predictions with scikit-learn and XGBoost](https://cloud.google.com/ai-platform/prediction/docs/getting-started-scikit-xgboost#xgboost)
 
 - [Cloud Academy](https://cloudacademy.com/course/introduction-to-google-cloud-machine-learning-engine/tensorflow/)
+
+- [Predicting Customer Churn: Extreme Gradient Boosting with Temporal Data](https://arxiv.org/pdf/1802.03396.pdf)
