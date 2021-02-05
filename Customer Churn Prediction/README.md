@@ -4,6 +4,10 @@
 **Bo Tian** 
 
 
+<p align="center">
+  <img width="2000" height="500" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ml_structure.png">
+</p>
+
 
 > “There is only one boss. The customer. And he can fire everybody in the company from the chairman on down, simply by spending his money somewhere else.”
 — Sam Walton
@@ -45,9 +49,6 @@ Our data pipeline consists of the following:
 - Deploy the model using AI platform as an API end-point
 - Used Looker to moniter output data
 
-<p align="center">
-  <img width="2000" height="500" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ml_structure.png">
-</p>
 
 
 
