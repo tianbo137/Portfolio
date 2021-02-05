@@ -39,7 +39,7 @@ In this project, I built an end-to-end stock portfolio watcher dashboard applica
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ab-testing.png"> **[A/B Testing Course Project by Udacity](https://github.com/tianbo137/Portfolio/tree/main/A:B%20Testing%20Course%20Project%20by%20Udacity)** 
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ab-testing.png"> **[A/B Testing Course Project by Udacity](https://github.com/tianbo137/Portfolio/tree/main/A_B%20Testing%20Course%20Project%20by%20Udacity)** 
 
 In this project,  I am working on to understand the results of an A/B test run by an e-commerce website. The company has developed a new web page to try and increase the number of users who "convert," meaning the number of users who decide to pay for the company's product. The goal is to work through this notebook to help the company understand if they should implement this new page, keep the old page, or perhaps run the experiment longer to make their decision.
 
