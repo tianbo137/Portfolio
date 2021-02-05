@@ -81,24 +81,7 @@ BigQuery is GCP’s serverless, petabyte-scale, pay-as-you-go data warehouse sol
 
 #### Step 3: EDA and Feature Engineering
 
-#### Step 4: XGBoost
-The AI Notebook environment provides a BigQuery extension as part of the GCP Python SDK. We used this client to query against BigQuery and load the data locally into a Pandas data frame. BigQuery maintains a single source of truth for the business, rather than needing to load intermediate stage data from GCS. With data available in a Pandas data frame, we can iterate quickly and execute our model experiment design local to the AI Notebook environment.
-We approached customer churn as a binary classification problem: churn or no-churn. We used the SciKit-Learn framework to create a model pipeline object containing a preprocessor and a logistic regression predictor.
-
-#### Step 5: Deploying the Model
-With the exported model object saved in GCS, we are now ready to deploy the model as a serverless function via the Models section of the AI Platform. To deploy the model, we need to supply the following: object store directory, RunTime environment, custom set up modules and the model name. The ML Model is then callable via an API call, making it accessible as an independent microservice.
-The term model in the AI Platform is a reference to the endpoint to be called for different business scenarios. This feature provides the ability to independently manage version control for various models.
-After calling the model, we can write the inferences back to BigQuery via the BigQuery Client Library. The results of the customer churn model are then available for the business users via a Looker Dashboard to review and decide what preventative measures to implement.
-#### Step 6: Tracking Customer Churn
-In order to easily track and manage customer churn, we created a Looker dashboard with the model output and source data by connecting directly to BigQuery. The dashboard provides business users insights into the customers at risk of churn along with the customer information.
-The Looker to BigQuery connection is enabled by creating a Looker-specific service account. The service account has access to directly query from and write temporary tables to BigQuery. With a live connection, the dashboard is able to display real-time results from when the model returns new output.
-This dashboard highlights customers who are predicted to churn and allows users to dig into detailed account-level information. Overall, this dashboard enables a team to gain insights on at-risk customers and develop strategies to prevent future churn.
-
-
-
-
-
-## Selected Features
+###### 3.2. Selected Features
 
 |Feature|Explanation|Table|Usage|
 |-------|----|----|-----|
@@ -112,9 +95,21 @@ This dashboard highlights customers who are predicted to churn and allows users 
 |last_auto_renew|If the last renewal was via Autorenew|transactions|User Behavior Pattern|
 
 
-## Result
+#### Step 4: XGBoost
+The AI Notebook environment provides a BigQuery extension as part of the GCP Python SDK. We used this client to query against BigQuery and load the data locally into a Pandas data frame. BigQuery maintains a single source of truth for the business, rather than needing to load intermediate stage data from GCS. With data available in a Pandas data frame, we can iterate quickly and execute our model experiment design local to the AI Notebook environment.
+We approached customer churn as a binary classification problem: churn or no-churn. We used the SciKit-Learn framework to create a model pipeline object containing a preprocessor and a logistic regression predictor.
 
-My XGBoost model scored top 5% with only 8 selected features for this competition and deployed the model as a microservice
+#### Step 5: Deploying the Model
+With the exported model object saved in GCS, we are now ready to deploy the model as a serverless function via the Models section of the AI Platform. To deploy the model, we need to supply the following: object store directory, RunTime environment, custom set up modules and the model name. The ML Model is then callable via an API call, making it accessible as an independent microservice.
+The term model in the AI Platform is a reference to the endpoint to be called for different business scenarios. This feature provides the ability to independently manage version control for various models.
+After calling the model, we can write the inferences back to BigQuery via the BigQuery Client Library. The results of the customer churn model are then available for the business users via a Looker Dashboard to review and decide what preventative measures to implement.
+
+#### Step 6: Tracking Customer Churn
+In order to easily track and manage customer churn, we created a Looker dashboard with the model output and source data by connecting directly to BigQuery. The dashboard provides business users insights into the customers at risk of churn along with the customer information.
+The Looker to BigQuery connection is enabled by creating a Looker-specific service account. The service account has access to directly query from and write temporary tables to BigQuery. With a live connection, the dashboard is able to display real-time results from when the model returns new output.
+This dashboard highlights customers who are predicted to churn and allows users to dig into detailed account-level information. Overall, this dashboard enables a team to gain insights on at-risk customers and develop strategies to prevent future churn.
+
+
 
 ## Reference
 
