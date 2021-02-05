@@ -31,7 +31,7 @@ We split the dataset temporally into 3 separate time periods for training, cross
 Model performance was evaluated using a standard log loss calculation on the target variable (churn probability).
 
 <p align="center">
-  <img width="1000" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ml_structure.png">
+  <img width="1000" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/logloss.png">
 </p>
 
 ## 4. GCP Architecture
@@ -46,7 +46,7 @@ Our data pipeline consists of the following:
 - Used Looker to moniter output data
 
 <p align="center">
-  <img width="2000" height="500" src="https://github.com/tianbo137/Portfolio/blob/main/Images/logloss.png">
+  <img width="2000" height="500" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ml_structure.png">
 </p>
 
 
