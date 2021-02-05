@@ -27,6 +27,7 @@ We split the dataset temporally into 3 separate time periods for training, cross
 
 
 ## 3. Evaluation Metrics
+
 Model performance was evaluated using a standard log loss calculation on the target variable (churn probability).
 
 <p align="center">
@@ -35,11 +36,7 @@ Model performance was evaluated using a standard log loss calculation on the tar
 
 ## 4. GCP Architecture
 
-<p align="center">
-  <img width="2000" height="500" src="https://github.com/tianbo137/Portfolio/blob/main/Images/logloss.png">
-</p>
-
-#### 4.1. Key Steps
+Our data pipeline consists of the following:
 
 - Data ingestion and aggregation with BigQuery from Google Cloud Storage (GCS)
 - ETL and feature engineering using AI Jupyter Notebook
@@ -48,7 +45,13 @@ Model performance was evaluated using a standard log loss calculation on the tar
 - Deploy the model using AI platform as an API end-point
 - Used Looker to moniter output data
 
-#### 4.2. GCP Services 
+<p align="center">
+  <img width="2000" height="500" src="https://github.com/tianbo137/Portfolio/blob/main/Images/logloss.png">
+</p>
+
+
+
+#### 4.1. GCP Services 
 
 In this project, we leveraged the following services in our solution:
 
@@ -58,7 +61,7 @@ In this project, we leveraged the following services in our solution:
 - Looker – A web-based visualization tool
 
 
-#### 4.3. AI Platform 
+#### 4.2. AI Platform 
 
 In particular, the bulk of our solution leverages GCP’s AI Platform, which provides a portal into GCP’s suite of machine learning services. The AI Platform has six main components: AI Hub, Data Labeling, Notebooks, Jobs and Models. This example utilizes the Notebooks and Models capabilities of GCP’s AI Platform.
 - Notebooks — Provides the ability to spin up JupyterLab servers, pre-built with all the general machine learning frameworks needed. Enables scaling up or down on hardware, connecting to a compute cluster, and connecting to other services within the GCP ecosystem.
