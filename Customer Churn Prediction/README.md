@@ -110,7 +110,7 @@ In order to easily track and manage customer churn, we created a Looker dashboar
 The Looker to BigQuery connection is enabled by creating a Looker-specific service account. The service account has access to directly query from and write temporary tables to BigQuery. With a live connection, the dashboard is able to display real-time results from when the model returns new output.
 This dashboard highlights customers who are predicted to churn and allows users to dig into detailed account-level information. Overall, this dashboard enables a team to gain insights on at-risk customers and develop strategies to prevent future churn.
 
-
+## 6. Result
 
 ## Reference
 
