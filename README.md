@@ -8,7 +8,7 @@ This portfolio contains my data science projects, related practices, and certifi
 
 
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[End-to-end ML Model on GCP --- Customer Churn Prediction](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/customer-churn.jpg"> **[Customer Churn Prediction on GCP](https://github.com/tianbo137/My_Portfolio/tree/main/Customer%20Churn%20Prediction)**
 
 In this end-to-end machine learning project, we developed an XGBoost model and served it on Google Cloud Platform (GCP) using AI Platform. The objective of our work is to predict whether a user of the music streaming service KKBox will “churn”, i.e. leave this subscription-based service, by analysing the user’s behaviour on the website. 
 
