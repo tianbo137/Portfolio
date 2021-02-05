@@ -34,7 +34,7 @@ In this project, I built an end-to-end stock portfolio watcher dashboard applica
 
 In this project, I used simulated data from the Starbucks rewards app to predict the propensity of a user to take up an offer. This project is inspired by a towardsdatascience.com [article](https://towardsdatascience.com/using-starbucks-app-user-data-to-predict-effective-offers-20b799f3a6d5).
 <br />
-
+<br />
 
 #
 
