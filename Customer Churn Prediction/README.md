@@ -21,7 +21,7 @@ The user logs and transaction details are available only up to March. For a user
 ## 3. GCP Pipeline
 
 <p align="center">
-  <img width="1600" height="800" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ml_structure.png">
+  <img width="2000" height="800" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ml_structure.png">
 </p>
 
 #### 3.1. Key Steps
