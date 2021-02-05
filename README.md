@@ -22,21 +22,20 @@ In this project, I built a [Streamlit web app]() to predict NBA game result. In 
 
 #
 
-<img align="left" width="250" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/Starbucks-Predictive-Analytics-e1527609153213.jpg"> **[Starbucks Offer Personalizations](https://github.com/tianbo137/Portfolio/tree/main/Starbucks%20Offer%20Personalizations)**
-
-In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users to predict which previously purchased item will be in user's next order. I also performed customer segmentation and affinity analysis to understand user purchase patterns.
-
-<br />
-
-
-#
-
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/My_Portfolio/blob/main/Images/www.usnews.com.jpg"> **[Stock Portfolio Dash App](https://github.com/tianbo137/My_Portfolio/tree/main/Stock%20Portfolio%20Dash%20App)**
  
 In this project, I built an end-to-end stock portfolio watcher dashboard application that utilizes machine learning to predict the rating of a stock against the rating the stock is given by analysts in the industry. 
 
 <br />
 
+#
+
+<img align="left" width="250" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/Starbucks-Predictive-Analytics-e1527609153213.jpg"> **[Starbucks Offer Personalizations](https://github.com/tianbo137/Portfolio/tree/main/Starbucks%20Offer%20Personalizations)**
+
+In this project, I used simulated data from the Starbucks rewards app to predict the propensity of a user to take up an offer. This project is inspired by this [article](https://towardsdatascience.com/using-starbucks-app-user-data-to-predict-effective-offers-20b799f3a6d5).
+<br />
+<br />
+<br />
 #
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/ab-testing.png"> **[A/B Testing Course Project by Udacity](https://github.com/tianbo137/Portfolio/tree/main/A_B%20Testing%20Course%20Project%20by%20Udacity)** 
