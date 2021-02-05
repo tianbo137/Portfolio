@@ -24,7 +24,7 @@ In this project, I built a [Streamlit web app]() to predict NBA game result. In 
 
 <img align="left" width="250" height="150" src="https://github.com/tianbo137/Portfolio/blob/main/Images/Starbucks-Predictive-Analytics-e1527609153213.jpg"> **[Starbucks Offer Personalizations](https://github.com/tianbo137/Portfolio/tree/main/Starbucks%20Offer%20Personalizations)**
 
-In this project, I analyzed 3 million grocery orders from more than 200,000 Instacart users to predict which previously purchased item will be in user's next order. I also performed customer segmentation and affinity analysis to understand user purchase patterns.
+In this project, I used simulated data from the Starbucks rewards app to predict the propensity of a user to take up an offer.
 
 <br />
 
