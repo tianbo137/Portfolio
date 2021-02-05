@@ -3,10 +3,12 @@
 
 **Bo Tian** 
 
-## 1. Overview
+
 
 > “There is only one boss. The customer. And he can fire everybody in the company from the chairman on down, simply by spending his money somewhere else.”
 — Sam Walton
+
+## 1. Overview
 
 One of the most important tasks a company faces is not just acquiring new customers but retaining existing customers. Customer retention is critical for a company’s growth and success, as the cost of acquiring a new customer is often greater than retaining an existing customer. However, accurately predicting customer churn using large scale time-series data can be particularly challenging due to temporal issues common to time-series data. In this project, we use Google Cloud Platform (GCP) to implement an extreme gradient boosting (XGBoost) model together with a wide-variety of temporal features to create a highly-accurate customer churn model. We also use Looker to explore the results to understand the key drivers of churn. 
 
@@ -17,6 +19,13 @@ The dataset comes from the WSDM Cup 2018 Challenge and was provided by KKBOX, a 
 Transaction details include payment method, duration of the subscription, date, membership expiry date, cancellation of the subscription, and user log contains total no of duration, no of unique songs, and the features based on the duration of songs listened by the user.
 
 The user logs and transaction details are available only up to March. For a user whose subscription expires on April 1, the entire history is open, but for the user with expiry on April 30, most recent activities are inaccessible. Further explanations and data are available [here](https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data)
+
+We split the dataset temporally into 3 separate time periods for training, cross-validation, and testing:
+
+- Training: January (2017/01/01–2017/01/31)
+- Cross Validation: February (2017/02/01–2017/2/28)
+- Testing: March (2017/03/01–2017/03/31)
+
 
 ## 3. GCP Pipeline
 
@@ -55,8 +64,8 @@ In particular, the bulk of our solution leverages GCP’s AI Platform, which pro
 
 ## 4. The Churn Model
 
+#### Step 1: Clean & Land the Data
 
-Step 1: Clean & Land the Data
 We landed the dataset in . GCS is often used as a data lake and houses raw data. In production, this raw data would be collected and stored from a variety of business workstreams. We used an AI Notebook environment to write a script that merges and cleans the data to meet Analytics & Data Warehousing Standards. This data is then staged back into GCS as a csv file.Step 2: Load Data into BigQuery
 BigQuery is GCP’s serverless, petabyte-scale, pay-as-you-go data warehouse solution. The BigQuery console allows us to select our staged data in GCS. BigQuery can auto-detect the schema of our file, making this just a point-and-click load of our data into this service.
 Step 3: XGBoost
