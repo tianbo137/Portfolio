@@ -71,6 +71,6 @@ This [repository](https://github.com/tianbo137/SQL) contains my practices of SQL
 - [Machine Learning Explainability By Kaggle]()
 - [Intro to SQL By Kaggle](https://github.com/tianbo137/Portfolio/blob/main/Certificates/bt137%20-%20Intro%20to%20SQL.png)
 - [SQL Test By HackerRank]()
-- [SQL Test By Testdome](https://github.com/tianbo137/Portfolio/blob/main/Certificates/TestDome%20certificate%20for%20Bo%20Tian.htm)
+- [SQL Test By Testdome](<a href="https://app.testdome.com/cert/84d8d43c140249b6a744018eaf328b76" class="testdome-certificate-stamp gold"><span class="testdome-certificate-name">Bo Tian</span><span class="testdome-certificate-test-name">SQL </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a><script>var stylesheet = "https://app.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);</script>)
 - [A/B Testing By Udacity](https://github.com/tianbo137/Portfolio/tree/main/A_B%20Testing%20Course%20Project%20by%20Udacity)
 - [Spark by Udacity](https://www.udacity.com/course/learn-spark-at-udacity--ud2002)
