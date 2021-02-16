@@ -11,11 +11,7 @@ by **Bo Tian**
 
 ## Overview
 
-In this project, I attempt to build a profitable NBA game winner prediction model against the odds of bookmakers. 
-
-The data includes player game-level stats pulled from the [NBA stats website](http://stats.nba.com/) with [nba_api](https://github.com/swar/nba_api) and game odds from [here](https://www.sportsbookreviewsonline.com/scoresoddsarchives/nba/nbaoddsarchives.htm).
-
-The model is a wide-and-deep neural network model together with a custom loss function to assist us identifying fair odds.
+In this project, I attempt to build a profitable NBA game winner prediction model against the odds of bookmakers. The data includes player game-level stats pulled from the [NBA stats website](http://stats.nba.com/) with [nba_api](https://github.com/swar/nba_api) and game odds from [here](https://www.sportsbookreviewsonline.com/scoresoddsarchives/nba/nbaoddsarchives.htm). The model we will be applying is a wide-and-deep neural network model together with a custom loss function to assist us identifying fair odds.
 
 ## Contents:
 
