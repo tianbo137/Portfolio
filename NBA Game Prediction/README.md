@@ -19,7 +19,7 @@ The model is a wide-and-deep neural network model together with a custom loss fu
 
 ## Contents:
 
-- [odds_data](): Scrapy project to scrape point spreads and over/under lines from
+- [odds_data](https://www.sportsbookreviewsonline.com/scoresoddsarchives/nba/nbaoddsarchives.htm): Historical scores and odds data from past NBA seasons including moneylines, 2nd half lines, opening and closing point spreads and totals. 
 - [game_data](): Python module with support functions to perform tasks including collecting stats to a SQLite database, simulating seasons, and customizing plots
 - [notebooks](): Jupyter notebooks of all analyses
 
@@ -33,7 +33,10 @@ The model is a wide-and-deep neural network model together with a custom loss fu
 
 ## Reference
 - [Exploiting sports-betting market using machine learning](https://www.researchgate.net/publication/331218530_Exploiting_sports-betting_market_using_machine_learning)
+- [Predict NBA games, make money — machine learning project](https://towardsdatascience.com/predict-nba-games-make-money-machine-learning-project-b222b33f70a3)
 - [Beating the Bookies with Machine Learning](https://www.kdnuggets.com/2019/03/beating-bookies-machine-learning.html)
+- [Sentiment Bias in National Basketball Association Betting](https://journals.sagepub.com/doi/abs/10.1177/1527002516656726)
+- [SENTIMENT BIAS AND ASSET PRICES: EVIDENCE FROM SPORTS BETTING MARKETS AND SOCIAL MEDIA](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecin.12404)
 - [Databall](https://klane.github.io/databall/)
 - [How to Create a Custom Loss Function | Keras](https://towardsdatascience.com/how-to-create-a-custom-loss-function-keras-3a89156ec69b)
 - [Wide & Deep Learning: Better Together with TensorFlow](https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html)
