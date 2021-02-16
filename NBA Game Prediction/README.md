@@ -56,3 +56,4 @@ The model is a wide-and-deep neural network model together with a custom loss fu
 - [An end-to-end machine learning project with Python Pandas, Keras, Flask, Docker and Heroku](https://towardsdatascience.com/an-end-to-end-machine-learning-project-with-python-pandas-keras-flask-docker-and-heroku-c987018c42c7)
 - [How We Calculate NBA Elo Ratings](https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/#:~:text=Here's%20the%20formula%3A%20Take%20the,and%20then%20divide%20by%2028.)
 - [NBA’s Winning Factor: How to Make Playoff](https://rstudio-pubs-static.s3.amazonaws.com/423157_b5d8f86694ef4cca82465f60af3b97c2.html)
+- [NBA Win Percentage Predictor](https://github.com/Vajrasamaya/Predicting-NBA-Win-Percentage)
