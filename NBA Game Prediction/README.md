@@ -1,7 +1,7 @@
 # NBA Game Result Prediction
 
 
-**An end-to-end machine learning web app to predict NBA game winner**
+**An end-to-end machine learning project to predict NBA game winner**
 
 
 by **Bo Tian**
@@ -11,7 +11,7 @@ by **Bo Tian**
 
 ## Overview
 
-In this project, I attempt to build a profitable NBA game winners prediction model against the odds of bookmakers. 
+In this project, I attempt to build a profitable NBA game winner prediction model against the odds of bookmakers. 
 
 The data includes player game-level stats pulled from the [NBA stats website](http://stats.nba.com/) with [nba_api](https://github.com/swar/nba_api) and game odds from [covers.com](http://covers.com) using the Python web scraping framework [Scrapy](https://scrapy.org/). 
 
