@@ -1,45 +1,63 @@
 import pandas as pd
 import numpy as np
-
-import requests
-from selenium import webdriver
-import re
+from nba_api.stats import endpoints
+from nba_api.stats.endpoints import teamgamelog
+from nba_api.stats.static import teams
 import time
 
+# Headers for my google chrome explorer
+headers = {
+    'Host': 'stats.nba.com',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Referer': 'https://stats.nba.com/',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Connection': 'keep-alive',
+}
+
+# Get the list of teams together with their abbreviations
+teams = teams.get_teams()
+print('Number of teams fetched: {}'.format(len(teams)))
+teams = pd.DataFrame.from_dict(teams)
+nba_teams = teams[['id','full_name','abbreviation']]
+print(nba_teams)
+
+# We will be using the past 6 seasons as training and testing data
+seasons = ['2015-16','2016-17','2017-18','2018-19','2019-20', '2020-21']
+
+for team_id in nba_teams['id']:
+	appended_data = []
+	for season in seasons:
+		temp1 = teamgamelog.TeamGameLog(season_type_all_star='Regular Season',team_id=team_id, season=season, headers=headers)
+		df1 = temp1.get_data_frames()[0]
+		df1['Season'] = season
+		df1['Is_Regular'] = 1
+		time.sleep(2)
+		appended_data.append(df1)
+		temp2 = teamgamelog.TeamGameLog(season_type_all_star='Playoffs',team_id=team_id, season=season, headers=headers)
+		df2 = temp2.get_data_frames()[0]
+		df2['Season'] = season
+		df2['Is_Regular'] = 0
+		time.sleep(2)
+		if len(df2) > 0:
+			appended_data.append(df2)
+	# see pd.concat documentation for more info
+	df = pd.concat(appended_data)
+	names = nba_teams[nba_teams['id'] == team_id]['abbreviation']
+	for name in names:
+		print(name)
+	file_name=str(name + "_game")
+	df.to_csv(file_name+'.csv', index=False)
+	time.sleep(1)
 
 
-pd.set_option('display.max_columns', 30)
-
-
-# Create list of seasons to look at
-seasons = ['2010-11', '2011-12', '2012-13', '2013-14', '2014-15', '2015-16', '2016-17', '2017-18', '2018-19', '2019-20', '2020-21']
-
-
-# Scrapes stats.nba.com to get season average statistics using Selenium, creates Pandas dataframe from statistics, and concatenates each year's dataframe with the prior year
-def get_data(seasons_list):
-    statistics = pd.DataFrame()
-    for season in seasons_list:
-        url = 'https://stats.nba.com/teams/traditional/?sort=W_PCT&dir=-1&Season=' + season + '&SeasonType=Regular%20Season'
-        driver = webdriver.Chrome(r"/Users/btian/Downloads/")
-        driver.get(url)
-        time.sleep(3)
-        table = driver.find_element_by_class_name('nba-stat-table__overflow')
-        remove_endline = table.text.split('\n')
-        row_to_string = ' '.join(remove_endline)
-        split_lines = re.sub(r'\s\d{1,2}\s([A-Z])', r'\n\1', row_to_string)
-        separate_teams = split_lines.split('\n')
-        table_list = []
-        for row in separate_teams:
-            split_stats = row.split()
-            table_list.append(split_stats[-27:])
-        df = pd.DataFrame.from_records(table_list[1:], columns = table_list[0])
-        df.insert(0, 'SEASON', season)
-        statistics = pd.concat([statistics, df], ignore_index = True)
-        driver.close()
-    return statistics
-
-statistics_df = get_data(seasons)
-statistics_df
-
-# Save large dataframe to file for use in analysis
-statistics_df.to_csv('nba_statistics_pergame.csv', index=False)
+names = teams['abbreviation'].tolist()
+data_list = []
+for name in names:
+	print(name)
+	file_name=str(name + "_game")
+	df = pd.read_csv(file_name+'.csv')
+	data_list.append(df)
+complete_game_stat = pd.concat(data_list)
+complete_game_stat.to_csv('complete_game_stat.csv', index=False)
