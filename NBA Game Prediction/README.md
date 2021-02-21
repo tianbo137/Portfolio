@@ -54,3 +54,4 @@ In this project, I attempt to build a profitable NBA game winner prediction mode
 - [NBA’s Winning Factor: How to Make Playoff](https://rstudio-pubs-static.s3.amazonaws.com/423157_b5d8f86694ef4cca82465f60af3b97c2.html)
 - [NBA Win Percentage Predictor](https://github.com/Vajrasamaya/Predicting-NBA-Win-Percentage) 
 - [How many times does one team in the NBA play another in a regular season?](https://www.quora.com/How-many-times-does-one-team-in-the-NBA-play-another-in-a-regular-season#:~:text=A%20conference%20has%2015%20teams,game%20and%20one%20away%20game.&text=There%20are%206%20divisions%20with,a%20total%20of%2016%20games.)
+- [Do NBA Teams Have Different Home Court Advantages?](http://practicallypredictable.com/2018/01/23/nba-teams-different-amounts-home-court-advantage/)
