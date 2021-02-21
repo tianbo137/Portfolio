@@ -2,19 +2,7 @@ import pandas as pd
 import numpy as numpy
 from datetime import datetime
 
-nba_teams_dict = {'ATL': 1610612737, 'BOS': 1610612738, 'CLE': 1610612739, 'NOP': 1610612740, 'CHI': 1610612741, 'DAL': 1610612742, 'DEN': 1610612743, 'GSW': 1610612744, 'HOU': 1610612745, 'LAC': 1610612746, 'LAL': 1610612747, 'MIA': 1610612748, 'MIL': 1610612749, 'MIN': 1610612750, 'BKN': 1610612751, 'NYK': 1610612752, 'ORL': 1610612753, 'IND': 1610612754, 'PHI': 1610612755, 'PHX': 1610612756, 'POR': 1610612757, 'SAC': 1610612758, 'SAS': 1610612759, 'OKC': 1610612760, 'TOR': 1610612761, 'UTA': 1610612762, 'MEM': 1610612763, 'WAS': 1610612764, 'DET': 1610612765, 'CHA': 1610612766}
-inv_map = {v: k for k, v in nba_teams_dict.items()}
 
-western_conference = ('DAL', 'DEN', 'GSW', 'HOU', 'LAC', 'LAL', 'MEM', 'MIN', 'NOP', 'OKC', 'PHX', 'POR', 'SAC', 'SAS', 'UTA')
-eastern_conference = ('ATL', 'BOS', 'CHA', 'CHI', 'CLE', 'DET', 'IND', 'MIA', 'MIL', 'NYK', 'ORL', 'PHI','TOR', 'WAS', 'BKN')
-
-# Modify the format of datetime in the game_stats table
-game_stats = pd.read_csv('/Users/btian/Documents/GitHub/My_Data_Portfolio/NBA Game Prediction/data/complete_game_stat.csv')
-game_stats['GAME_DATE'] = game_stats['GAME_DATE'].apply(lambda x: datetime.strptime(x, '%b %d, %Y'))
-game_stats['GAME_DATE'] = pd.to_datetime(game_stats['GAME_DATE'])
-game_stats['Team'] = game_stats['Team_ID'].map(inv_map)
-game_stats['CONFERENCE'] = game_stats['Team'].apply(lambda x: 'W' if x in western_conference else 'E')
-game_stats.sort_values(by=['GAME_DATE', 'Game_ID'], inplace = True)
 #print(game_stats)
 
 processed_odds = pd.read_csv('/Users/btian/Documents/GitHub/My_Data_Portfolio/NBA Game Prediction/data/processed_odds_data.csv')

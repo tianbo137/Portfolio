@@ -1,22 +1,28 @@
 import numpy as np
 import pandas as pd
-import skill_level
-import sqlite3
 
 
-def prep_team_data(df, country):
+
+def prep_team_data(df):
 
     '''
     Cleans match result data
-    :param df: Dataframe of raw match results
-    :param country: List of countries to keep in the dataset
-    :return: DataFrame of clean match results
+    param df: Dataframe of raw match results
+    return: DataFrame of clean match results
     '''
 
-    try:
-
-        df.drop(df.columns.difference(['Team', 'Result','For','Aga','Diff','HTf',
-                                       'HTa','Opposition', 'Ground', 'Match Date']), 1, inplace=True)
+    nba_teams_dict = {'ATL': 1610612737, 'BOS': 1610612738, 'CLE': 1610612739, 'NOP': 1610612740, 'CHI': 1610612741, 'DAL': 1610612742, 'DEN': 1610612743, 'GSW': 1610612744, 'HOU': 1610612745, 'LAC': 1610612746, 'LAL': 1610612747, 'MIA': 1610612748, 'MIL': 1610612749, 'MIN': 1610612750, 'BKN': 1610612751, 'NYK': 1610612752, 'ORL': 1610612753, 'IND': 1610612754, 'PHI': 1610612755, 'PHX': 1610612756, 'POR': 1610612757, 'SAC': 1610612758, 'SAS': 1610612759, 'OKC': 1610612760, 'TOR': 1610612761, 'UTA': 1610612762, 'MEM': 1610612763, 'WAS': 1610612764, 'DET': 1610612765, 'CHA': 1610612766}
+	inv_map = {v: k for k, v in nba_teams_dict.items()}
+	western_conference = ('DAL', 'DEN', 'GSW', 'HOU', 'LAC', 'LAL', 'MEM', 'MIN', 'NOP', 'OKC', 'PHX', 'POR', 'SAC', 'SAS', 'UTA')
+	eastern_conference = ('ATL', 'BOS', 'CHA', 'CHI', 'CLE', 'DET', 'IND', 'MIA', 'MIL', 'NYK', 'ORL', 'PHI','TOR', 'WAS', 'BKN')
+	
+	try:
+		# Modify the format of datetime in the game_stats table
+		df['GAME_DATE'] = df['GAME_DATE'].apply(lambda x: datetime.strptime(x, '%b %d, %Y'))
+		df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+		df['Team'] = df['Team_ID'].map(inv_map)
+		df['CONFERENCE'] = df['Team'].apply(lambda x: 'W' if x in western_conference else 'E')
+		df.sort_values(by=['GAME_DATE', 'Game_ID'], inplace = True)
 
         # Clean opposition field
         df['Opposition'] = df['Opposition'].str.split(" ", n=1, expand=True)[1]
@@ -49,6 +55,38 @@ def prep_team_data(df, country):
         print("Team data preparation failed")
 
     return df
+
+
+    def rename_raw_columns(df):
+    df = df.rename(columns={
+        'Season': 'SEASON',
+        'Team': 'TEAM'
+    })
+    return df
+combined_df = rename_raw_columns(combined_df)
+print(combined_df.columns)
+
+
+def reorder_raw_columns(df):
+    first_cols = [
+        'SEASON',
+        'GAME_DATE',
+        'TEAM',
+        'CONFERENCE',
+        'MATCHUP',
+        'WL',
+        'PTS'
+    ]
+    last_cols = [
+        'Game_ID',
+        'Team_ID',
+    ]
+    cols = (
+        first_cols +
+        [col for col in df.columns if col not in (first_cols+last_cols)] +
+        last_cols
+    )
+    return df[cols]
 
 
 def add_rankings(match_results_clean, rankings):
@@ -86,44 +124,7 @@ def add_rankings(match_results_clean, rankings):
     return match_results_rankings
 
 
-def add_lost_results(df):
 
-    '''
-    Switches winning team and losing team in match results
-    :param df: DataFrame of match results
-    :return: DataFrame of match results with team1 and team2 inverted i.e. winning team becomes losing team
-    '''
-
-    try:
-        # Prepare ratings data by adding in lost results (i.e. duplicate wins and invert data)
-        tmp = pd.DataFrame()
-        tmp['For'] = df['Aga']
-        tmp['Aga'] = df['For']
-        tmp['Team skill'] = df['Opp skill']
-        tmp['Opp skill'] = df['Team skill']
-        tmp['Team sigma'] = df['Opp sigma']
-        tmp['Opp sigma'] = df['Team sigma']
-        tmp['Team ranking pts'] = df['Opposition ranking pts']
-        tmp['Opposition ranking pts'] = df['Team ranking pts']
-        tmp['Win prob'] = (1-df['Win prob'])
-        tmp['Match Quality'] = df['Match Quality']
-        tmp['Team'] = df['Opposition']
-        tmp['Opposition'] = df['Team']
-        tmp['Match Date'] = df['Match Date']
-        tmp['Diff'] = df['Diff']
-        tmp['Result'] = "lost"
-
-        data_for_model = pd.concat([df, tmp], sort=False, ignore_index=True)
-
-        return data_for_model
-
-    except Exception as e:
-
-        print(e)
-        print("Failed adding lost results")
-
-
-# Get latest team ranking and skill level data
 
 def get_stats(df, country):
 
@@ -207,9 +208,7 @@ except Exception as e:
     print("Failed retrieving latest team stats")
 
 
-
-
-
+game_stats = pd.read_csv('/Users/btian/Documents/GitHub/My_Data_Portfolio/NBA Game Prediction/data/complete_game_stat.csv')
 
 
 
