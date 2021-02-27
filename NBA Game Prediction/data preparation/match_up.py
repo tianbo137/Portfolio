@@ -11,5 +11,3 @@ print(home_games.head())
 away_games = games[games['HV'] == 'V']
 print(away_games.head())
 
-df = home_games.join(away_games, lsuffix='_H', rsuffix='_V').head()
-print(df)

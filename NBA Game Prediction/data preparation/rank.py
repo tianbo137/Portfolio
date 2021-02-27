@@ -80,3 +80,5 @@ def process_data(df):
 game_stats = pd.read_csv('/Users/btian/Documents/GitHub/portfolio/NBA Game Prediction/data/complete_game_stat.csv')
 game_stats = process_data(game_stats)
 game_stats.to_csv('/Users/btian/Documents/GitHub/portfolio/NBA Game Prediction/data/processed_game_stat.csv')
+
+

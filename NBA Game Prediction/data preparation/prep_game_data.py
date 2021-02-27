@@ -50,11 +50,7 @@ def prep_team_data(df):
 
         df['Match Date'] = pd.to_datetime(df['Match Date']).dt.date
 
-    except Exception as e:
-        print(e)
-        print("Team data preparation failed")
 
-    return df
 
 
     def rename_raw_columns(df):
